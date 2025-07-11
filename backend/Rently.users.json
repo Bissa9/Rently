@@ -1,0 +1,230 @@
+[{
+  "_id": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "firstName": "Rama",
+  "lastName": "Selim",
+  "email": "rama.a.selim@gmail.com",
+  "password": "$2b$10$Y3ST9lwl2.VPgSEsNugBueM1d9KBV2fpIo8W3htrj4sCh9iW/O2ha",
+  "phone": "+201222831852",
+  "drivingLicense": [
+    {
+      "number": "30305150201462",
+      "issuedDate": {
+        "$date": "2023-06-20T00:00:00.000Z"
+      },
+      "expiryDate": {
+        "$date": "2032-06-20T00:00:00.000Z"
+      },
+      "_id": {
+        "$oid": "67d73c28f190c01d8aae8774"
+      }
+    }
+  ],
+  "dateOfBirth": {
+    "$date": "2003-05-15T00:00:00.000Z"
+  },
+  "address": "222 ElHoreya Road, Ibrahimia, Alexandria, Egypt",
+  "isCarOwner": true,
+  "isVerified": true,
+  "verificationCode": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhbWEuYS5zZWxpbUBnbWFpbC5jb20iLCJpYXQiOjE3NDIxNTg4ODgsImV4cCI6MTc0MjI0NTI4OH0.NaVgmdzOcBmoF_0pfRJypdIUbJjtE0K6eUr_VAcyN8g",
+  "createdAt": {
+    "$date": "2025-03-16T21:01:28.068Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T20:13:54.020Z"
+  },
+  "__v": 0,
+  "profitBalance": 500,
+  "withdrawalRequests": [
+    {
+      "amount": 500,
+      "status": "pending",
+      "method": "bank",
+      "details": {
+        "accountNumber": "123456789",
+        "bankName": "National Bank"
+      },
+      "_id": {
+        "$oid": "67febd927e983ce2fbd87617"
+      },
+      "createdAt": {
+        "$date": "2025-04-15T20:12:02.784Z"
+      }
+    },
+    {
+      "amount": 500,
+      "status": "pending",
+      "method": "bank",
+      "details": {
+        "accountNumber": "123456789",
+        "bankName": "National Bank"
+      },
+      "_id": {
+        "$oid": "67febe027e983ce2fbd8762e"
+      },
+      "createdAt": {
+        "$date": "2025-04-15T20:13:54.020Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "firstName": "Yasmin",
+  "lastName": "Tarek",
+  "email": "yasmiintarek2003@gmail.com",
+  "password": "$2b$10$qdEdOUgZA6l/yDQVS5.t1.6Wtaw3eCO1DozxbOben2o9LO/gcTPdm",
+  "phone": "+201091141267",
+  "drivingLicense": [
+    {
+      "number": "30303150206412",
+      "issuedDate": {
+        "$date": "2017-07-25T00:00:00.000Z"
+      },
+      "expiryDate": {
+        "$date": "2027-07-25T00:00:00.000Z"
+      },
+      "_id": {
+        "$oid": "67d73e8bbf15b8cdf13c1a8e"
+      }
+    }
+  ],
+  "dateOfBirth": {
+    "$date": "2003-03-15T00:00:00.000Z"
+  },
+  "address": "Loran, ElTeram Road, Alexandria, Egypt",
+  "isCarOwner": true,
+  "isVerified": true,
+  "verificationCode": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inlhc21pbnRhcmVrQGVtYWlsLmNvbSIsImlhdCI6MTc0MjE1OTQ5OSwiZXhwIjoxNzQyMjQ1ODk5fQ.BdIcoNjha8_xciQq3CvKXFJ9vc2IN3dxXcAxbxxSpEE",
+  "createdAt": {
+    "$date": "2025-03-16T21:11:39.862Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-16T21:11:39.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "firstName": "ramroma",
+  "lastName": "selim",
+  "email": "rama.ahmed.atteya@gmail.com",
+  "password": "$2b$10$0hBShDoMMXRSgx6ljUElvOWEhny1hKaHA9BxtmXOyG9mQkuhhgi4e",
+  "phone": "+201091141267",
+  "drivingLicense": {
+    "number": "30303150209027",
+    "issuedDate": {
+      "$date": "2019-09-25T00:00:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2029-09-25T00:00:00.000Z"
+    },
+    "_id": {
+      "$oid": "67e330e4f0314e37afc2eb2c"
+    }
+  },
+  "dateOfBirth": {
+    "$date": "2003-03-15T00:00:00.000Z"
+  },
+  "address": "Loran, ElTeram Road, Alexandria, Egypt",
+  "isCarOwner": false,
+  "isVerified": true,
+  "resetPassword": {
+    "code": null,
+    "expires": null
+  },
+  "createdAt": {
+    "$date": "2025-03-25T22:40:36.571Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T22:41:09.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "firstName": "Nourine",
+  "lastName": "Sameh",
+  "email": "nourine404@gmail.com",
+  "password": "$2b$10$VUL5BPBtmVbmuTHdPtwi4Oi1Vj7s7Ls1o7BwVRSGTuFrtHUUoPDKS",
+  "phone": "+201279331168",
+  "drivingLicense": {
+    "number": "30303120200809",
+    "issuedDate": {
+      "$date": "2023-03-11T22:00:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2033-03-11T22:00:00.000Z"
+    },
+    "_id": {
+      "$oid": "682a4e2d57164d47b84d93b5"
+    }
+  },
+  "dateOfBirth": {
+    "$date": "2003-03-12T00:00:00.000Z"
+  },
+  "address": "El Attaren ",
+  "isCarOwner": true,
+  "isVerified": true,
+  "resetPassword": {
+    "code": null,
+    "expires": null
+  },
+  "profitBalance": 0,
+  "withdrawalRequests": [],
+  "createdAt": {
+    "$date": "2025-05-05T17:13:57.636Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T23:50:23.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "firstName": "Nourine",
+  "lastName": "Sameh",
+  "email": "nouriiinesameh12@gmail.com",
+  "password": "$2b$10$JTR6cUnD4GbRXfDtadlglu.8VTlKoLDGJYk8jL2mU9ebckaer8De2",
+  "phone": "+201279331168",
+  "drivingLicense": {
+    "number": "30303120200808",
+    "issuedDate": {
+      "$date": "2023-03-11T22:00:00.000Z"
+    },
+    "expiryDate": {
+      "$date": "2033-03-11T22:00:00.000Z"
+    },
+    "_id": {
+      "$oid": "68362de28e4a3045857e4a6f"
+    }
+  },
+  "dateOfBirth": {
+    "$date": "2003-03-12T00:00:00.000Z"
+  },
+  "address": "El Attaren ",
+  "isCarOwner": false,
+  "isVerified": true,
+  "resetPassword": {
+    "code": null,
+    "expires": null
+  },
+  "profitBalance": 0,
+  "withdrawalRequests": [],
+  "createdAt": {
+    "$date": "2025-05-27T21:25:54.329Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T15:02:38.687Z"
+  },
+  "__v": 0
+}]

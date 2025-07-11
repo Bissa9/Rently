@@ -1,0 +1,43 @@
+.custom-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-arrow:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.month-label {
+  font-size: 18px;
+  margin: 0 15px;
+}
+.date-picker-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.date-picker-wrapper{
+  display: flex;
+  
+}
+.date-input-field ,.time-input-field {
+  width: 100% !important;
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+@media screen and (max-width: 800px) {
+  .date-picker-container{
+    gap: 10px;
+  }
+}

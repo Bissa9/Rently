@@ -1,0 +1,30 @@
+:root{
+    --primary :#1D3557;
+    --secondary:#FF6B35;
+    --grey:  #A8A8A8;
+    --light-grey: #EAEAEA;
+    --dark-grey :#3D3D3D;
+}
+body {
+    font-family: 'inter', sans-serif;
+
+
+}
+
+.back-button-black {
+    width: fit-content;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.back-button-white {
+    color: white!important;
+    width: fit-content;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}

@@ -1,0 +1,121 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: emergency scenario
+  steps:
+  - intent: emergency_help
+  - action: utter_emergency_help
+
+- story: help with booking
+  steps:
+  - intent: booking_help
+  - action: utter_booking_help
+
+- story: loyalty program info
+  steps:
+  - intent: loyalty_program_info
+  - action: utter_loyalty_program_info
+
+- story: car rental information
+  steps:
+  - intent: car_rental_info
+  - action: utter_car_rental_info
+
+- story: cancel booking
+  steps:
+  - intent: cancel_booking
+  - action: utter_cancel_booking
+
+
+- story: modify booking
+  steps:
+    - intent: modify_booking
+    - action: utter_modify_booking
+
+- story: car owner help
+  steps:
+    - intent: car_owner_help
+    - action: utter_car_owner_help
+
+- story: promo code info
+  steps:
+    - intent: promo_code_info
+    - action: utter_promo_code_info
+
+- story: check points balance
+  steps:
+    - intent: points_balance_check
+    - action: utter_points_balance_check
+
+- story: eco cars help
+  steps:
+    - intent: ask_eco_cars
+    - action: utter_eco_cars_help
+
+- story: User asks about car owner profit
+  steps:
+    - intent: ask_owner_profit
+    - action: utter_owner_profit
+
+- story: User asks about loyalty point expiration
+  steps:
+    - intent: ask_loyalty_expiry
+    - action: utter_loyalty_expiry
+
+- story: User asks how to pay
+  steps:
+    - intent: ask_payment_methods
+    - action: utter_payment_methods
+
+- story: User asks about discounts
+  steps:
+    - intent: ask_discounts
+    - action: utter_discounts
+
+- story: User asks how to use loyalty points
+  steps:
+    - intent: ask_using_loyalty_points
+    - action: utter_using_loyalty_points
+
+- story: User asks for support
+  steps:
+    - intent: ask_support
+    - action: utter_support
+
+- story: User asks about other payment methods
+  steps:
+    - intent: ask_other_payment_methods
+    - action: utter_other_payment_methods
+
+- story: Loyalty point earning info
+  steps:
+    - intent: ask_loyalty_earning
+    - action: utter_loyalty_earning

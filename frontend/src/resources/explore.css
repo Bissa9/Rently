@@ -1,0 +1,67 @@
+.page-content {
+ margin: 30px 20px ;
+
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing */
+    align-items: center; /* Aligns items vertically */
+    text-align: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 20px; /* Adds spacing between steps */
+}
+
+.step-container {
+    width: 30%; /* Adjusted for better fit */
+    display: flex;
+    flex-direction: column; /* Stack image, title, and description */
+    align-items: center; /* Center everything inside */
+    text-align: center;
+}
+
+.images {
+    width: 85%; /* Adjust image size */
+    max-width: 150px; /* Prevents oversized images */
+    margin-bottom: 10px;
+}
+
+.button-container {
+    width: 25%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center; 
+    margin: 30px auto 0 auto;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 12px;
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+    cursor: pointer;
+   
+}
+
+.btn:hover {
+    background-color: #ff7f50; 
+}
+
+
+@media screen and (max-width: 800px) {
+    .page-content{
+        text-align: center;
+    }
+    .steps-container {
+        flex-direction: column; /* Stack steps vertically on small screens */
+        gap: 30px;
+    }
+
+    .step-container {
+        width: 80%; /* Makes steps take more space on smaller screens */
+    }
+}

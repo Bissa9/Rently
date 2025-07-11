@@ -1,0 +1,53 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Tell car owner profit
+  steps:
+    - intent: ask_owner_profit
+    - action: utter_owner_profit
+
+- rule: Tell loyalty point expiration
+  steps:
+    - intent: ask_loyalty_expiry
+    - action: utter_loyalty_expiry
+
+- rule: Tell payment method info
+  steps:
+    - intent: ask_payment_methods
+    - action: utter_payment_methods
+
+- rule: Tell about discounts
+  steps:
+    - intent: ask_discounts
+    - action: utter_discounts
+
+- rule: Tell how to use loyalty points
+  steps:
+    - intent: ask_using_loyalty_points
+    - action: utter_using_loyalty_points
+
+- rule: Tell support info
+  steps:
+    - intent: ask_support
+    - action: utter_support
+
+- rule: Tell other payment options
+  steps:
+    - intent: ask_other_payment_methods
+    - action: utter_other_payment_methods
+
+- rule: Respond to loyalty point earning question
+  steps:
+    - intent: ask_loyalty_earning
+    - action: utter_loyalty_earning

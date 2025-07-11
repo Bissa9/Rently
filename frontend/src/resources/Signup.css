@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+  
+  
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1D3557;
+  }
+  
+  
+  
+  .signup-container {
+    width: 100%;
+    max-width: 450px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    z-index: 1;
+  }
+  
+  
+  .signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+
+  .password-criteria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 14px;
+    color: #555;
+    padding: 10px;
+  }
+  .progress-container {
+    display: flex;
+    justify-content: center !important;
+    align-items: center!important;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    width: 100%; 
+  }
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #597081;
+    border-radius: 7px;
+    box-sizing: border-box; 
+  }
+  
+  .ant-progress-line {
+    margin-top: 10px;
+  }
+  
+
+  .ant-form-item {
+    margin-bottom: 8px;
+  }
+
+  
+  .forgot-password {
+    text-align: right;
+    margin-top: 5px;
+  }
+  
+  .inline-inputs {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.half-width-item {
+  flex: 1;
+}
+
+  /* Buttons */
+  .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px; 
+    margin-top: 20px;
+  }
+  
+
+  
+  .btn-primary {
+    width: 50%;
+    padding: 12px;
+    background-color: #FF6B35;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .hidden-file-input {
+    display: none !important;
+  }
+  
+  .custom-file-button {
+    background-color: var(--primary);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+
+  }
+  
+  
+  .file-name {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .or {
+    margin: 1px 0; 
+    font-size: 14px;
+    color:black;
+  }
+  
+  
+  
+  .registered {
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+  }
+  
+  .registered-link {
+    color: #FF6B35;
+    text-decoration: none;
+  }
+  
+ /* Ensure first/last name are side-by-side but responsive */
+@media (max-width: 576px) {
+  .ant-col-12 {
+    width: 100% !important;
+  }
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #597081;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+  

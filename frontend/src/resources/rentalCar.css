@@ -1,0 +1,136 @@
+.container {
+  margin: 20px;
+}
+.no-rentals {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  height: 200px;          
+  font-size: 1.2rem;
+  color: #555;
+}
+.rental-car-details {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #a8a8a8;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.rental-car-image {
+  width: 40%;
+  max-width: 390px;
+}
+.rental-car-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 0px 0px 12px;
+  display: block;
+}
+.rental-car-info {
+  align-self: flex-start;
+  flex: 1;
+  font-size: 14px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.rental-car-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.rental-car-title {
+  text-align: left;
+  background-color: var(--primary);
+  color: white;
+  padding: 10px;
+  border-radius: 12px 12px 0px 0px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+/* Cancelled badge */
+.rental-status-cancelled {
+  display: inline-block;
+  background-color: crimson;      
+  color: #fff;                   
+  font-weight: 600;             
+  text-transform: uppercase;    
+  padding: 0.25em 0.6em;        
+  border-radius: 8px;           
+  font-size: 0.85rem;           
+  letter-spacing: 0.03em;      
+  margin-bottom: 0.5em;        
+}
+
+.upcomming-rentals-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px;
+  align-self: flex-end; 
+  width: fit-content;
+  margin-left: auto;
+}
+.swal2-actions-tight {
+  display: flex !important;
+  justify-content: space-evenly!important;
+  width: 100% !important;
+  
+}
+
+.swal2-cancel-custom {
+  border: 1px solid var(--grey) !important;
+  color: var(--grey) !important;
+  background-color: white !important;
+}
+.modify-inline {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: flex-end;
+  margin: 20px 0;
+}
+
+.modify-dates-input {
+  flex: 1; /* take equal space */
+  border: 1px solid #A8A8A8;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 40px;
+  font-size: 16px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.modify-dates-input input {
+  border: none;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+  appearance: none;
+}
+
+.modify-dates-input input::-webkit-calendar-picker-indicator {
+  filter: invert(0.5);
+}
+.modify-spot select {
+  padding: 10px;
+   height: 40px;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.modify-btns{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

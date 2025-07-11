@@ -1,0 +1,18 @@
+.add-spot {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding: 6px 10px;
+  border-radius: 16px;
+}
+
+.remove-spot {
+  margin-left: 8px;
+  color: #888;
+  cursor: pointer;
+}
+
+.remove-spot:hover{
+    color: red;
+}

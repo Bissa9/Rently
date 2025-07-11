@@ -1,0 +1,53 @@
+.result-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.result-pagination .page-item,
+.result-pagination .pagination-prev,
+.result-pagination .pagination-next {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Active page has colored background and white text */
+.result-pagination .pagination-active {
+  background-color: var(--secondary);
+  color: white;
+  border: none;
+  cursor: default;
+}
+
+/* Inactive page numbers and Next/Prev buttons (not disabled) */
+.result-pagination .page-item:not(.pagination-active):not(.pagination-disabled),
+.result-pagination .pagination-prev:not(.pagination-disabled),
+.result-pagination .pagination-next:not(.pagination-disabled) {
+  background-color: white;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  cursor: pointer;
+}
+
+/* Hover effect for clickable buttons and numbers */
+.result-pagination .page-item:hover:not(.pagination-disabled):not(.pagination-active),
+.result-pagination .pagination-prev:hover:not(.pagination-disabled),
+.result-pagination .pagination-next:hover:not(.pagination-disabled) {
+  background-color: #ff7f50;
+  color: white;
+  border-color: #ff7f50;
+}
+
+/* Disabled buttons with grey border */
+.result-pagination .pagination-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  border: 1px solid grey; /* Grey border for disabled buttons */
+  color: grey; /* Optional: Change text color for disabled buttons */
+}

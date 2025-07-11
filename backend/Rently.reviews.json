@@ -1,0 +1,183 @@
+[{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69af"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "user": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "comment": "Great car! Smooth ride and very fuel-efficient. Perfect for city driving.",
+  "rating": 5,
+  "reviewDate": {
+    "$date": "2025-01-15T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b0"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "user": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "comment": "Reliable but a bit basic. Could use more tech features.",
+  "rating": 4,
+  "reviewDate": {
+    "$date": "2025-02-20T14:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b1"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba84"
+  },
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "comment": "Absolutely love this Tesla! Instant acceleration and super quiet. Best EV I've driven.",
+  "rating": 5,
+  "reviewDate": {
+    "$date": "2025-03-05T09:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b2"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba85"
+  },
+  "user": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "comment": "Luxurious and powerful, but fuel economy isn't the best.",
+  "rating": 4,
+  "reviewDate": {
+    "$date": "2025-01-28T16:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b3"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba87"
+  },
+  "user": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "comment": "Perfect for off-roading! Handles rough terrain like a beast.",
+  "rating": 5,
+  "reviewDate": {
+    "$date": "2025-02-10T11:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b4"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba8b"
+  },
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "comment": "Good budget car, but feels outdated compared to newer models.",
+  "rating": 3,
+  "reviewDate": {
+    "$date": "2025-03-12T13:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b5"
+  },
+  "car": {
+    "$oid": "681e4977749dd337649ced28"
+  },
+  "user": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "comment": "The Tesla S3 is amazing! Fast, futuristic, and eco-friendly.",
+  "rating": 5,
+  "reviewDate": {
+    "$date": "2025-01-05T08:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b6"
+  },
+  "car": {
+    "$oid": "681e4977749dd337649ced2b"
+  },
+  "user": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "comment": "Insane performance! The Corvette Z51 is a dream to drive.",
+  "rating": 5,
+  "reviewDate": {
+    "$date": "2025-02-18T17:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b7"
+  },
+  "car": {
+    "$oid": "681e4977749dd337649ced2e"
+  },
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "comment": "Ferrari 296 GTS is pure adrenaline! Worth every penny.",
+  "rating": 5,
+  "reviewDate": {
+    "$date": "2025-03-22T12:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c91a37687bdd8794a69b8"
+  },
+  "car": {
+    "$oid": "681e4977749dd337649ced36"
+  },
+  "user": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "comment": "Jeep Wrangler is fun but drinks fuel like crazy.",
+  "rating": 3,
+  "reviewDate": {
+    "$date": "2025-01-30T15:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68410b7ea4c5d516643d2ea8"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "comment": "3rbya tohfaaa awyyyy",
+  "rating": 5,
+  "reviewDate": {
+    "$date": "2025-06-05T03:14:06.352Z"
+  },
+  "createdAt": {
+    "$date": "2025-06-05T03:14:06.352Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-05T03:14:06.352Z"
+  },
+  "__v": 0
+}]

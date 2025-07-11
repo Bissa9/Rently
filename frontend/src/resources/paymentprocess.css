@@ -1,0 +1,242 @@
+/* Overall page layout */
+.payment-process-page {
+    padding-top: 45px;
+}
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+    
+/* Make header (Navbar) sticky at the top */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+
+
+/* Let the main content scroll between header and footer */
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 60px;  
+    margin-bottom: 60px; 
+    padding: 20px;
+}
+
+.input-underline{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 6px 4px;
+    width: 100%;
+    background: transparent;
+}
+
+.save1{
+    background-color: var(--secondary);
+    
+    margin-bottom: 0;
+}
+
+.save2{
+    background-color: var(--secondary);
+   
+    margin-bottom: 0;
+}
+
+.input-button-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%; /* Or 100% if you want full width */
+    
+}
+
+
+.save1.ant-btn-primary:hover,
+.save2.ant-btn-primary:hover {
+    background-color: var(--secondary) !important;
+    
+    border-color: var(--secondary) !important;
+    box-shadow: none !important;
+}
+
+.savecont{
+    background-color: var(--secondary);
+
+}
+
+/* General input styling */
+.pp-input,
+select {
+    width: 35%;
+    padding: 10px 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    box-sizing: border-box;
+}
+#ln-input{
+    width: 35%;
+    padding: 10px 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    box-sizing: border-box;
+}
+.custom{
+    width: 35%;
+}
+
+select {
+    appearance: none; /* Removes native arrow on some browsers */
+    
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    
+}
+
+
+
+/* On focus */
+.pp-input:focus {
+    border-color: #40a9ff; /* Light blue like Ant Design's default */
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+/* Placeholder text */
+input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Disabled inputs */
+input:disabled {
+    background-color: #f5f5f5;
+    color: #999;
+    cursor: not-allowed;
+}
+
+/* Form.Item label styling if you want consistency */
+.ant-form-item-label > label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Consistent padding between Form.Item blocks */
+.ant-form-item {
+    margin-bottom: 16px;
+}
+
+/* Customize buttons if you want */
+.savecont {
+    background-color: #FF6B35;
+    border-color: #FF6B35;
+    color: white;
+}
+
+/* Optional: keep the color on hover */
+.savecont:hover {
+    background-color: #FF6B35 !important;
+    border-color: #FF6B35 !important;
+    color: white !important;
+}
+
+
+.ant-collapse-content-box {
+    padding: 16px;
+    background-color: #fafafa;
+    border-radius: 8px;
+}
+
+.ant-collapse-header {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.proceed-button {
+    background-color: #FF6B35 !important;
+    border: none !important;
+    color: white !important;
+    text-align: left;
+    
+    
+}
+
+.proceed-button:hover {
+    background-color: #FF6B35 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.proceed-button:focus,
+.proceed-button:active {
+    background-color: #FF6B35 !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important; /* Prevent focus outline */
+}
+
+
+
+/* ... your existing styles above ... */
+
+/* Payment options (radio-like) */
+.payment-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.radio-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.radio-circle.active {
+    border-color: #FF6B35;
+    background-color: #FF6B35;
+}
+
+/* Card form wrapper (optional for padding) */
+.payment-form-wrapper {
+    padding-left: 24px;
+}
+
+
+
+
+
+
+.btn-orange {
+    background-color: #FF6B35 !important;
+    color: white !important;
+    border-color: #FF6B35 !important;
+}
+.btn-white {
+background-color: white !important;
+color: #FF6B35 !important;
+border-color: #FF6B35 !important;
+}
+
+
+
+
+

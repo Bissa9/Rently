@@ -1,0 +1,666 @@
+[{
+  "_id": {
+    "$oid": "67e34b84146e702cbcbdef3f"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "Alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:34:12.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:34:12.296Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34b8a146e702cbcbdef43"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "Alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:34:18.435Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:34:18.435Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34bac146e702cbcbdef47"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "Alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:34:52.829Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:34:52.829Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34bb3146e702cbcbdef4b"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "Alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:34:59.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:34:59.459Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34bd4146e702cbcbdef53"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:35:32.706Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:35:32.706Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34bf1146e702cbcbdef57"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:36:01.713Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:36:01.713Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34c25146e702cbcbdef5b"
+  },
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "paid",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-03-26T00:36:53.787Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-29T14:32:02.145Z"
+  },
+  "__v": 0,
+  "paymentIntentId": "pi_3RU7Uz06Xq2llMbH0Q2xtHuo",
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34d4a146e702cbcbdef68"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:41:46.794Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:41:46.794Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34d60146e702cbcbdef6c"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:42:08.491Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:42:08.491Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34d62146e702cbcbdef70"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-03-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-03-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:42:10.986Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:42:10.986Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67e34fd5425845a5b8c69bcf"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "681e4977749dd337649ced31"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-04-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-04-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-03-26T00:52:37.071Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-26T00:52:37.071Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67fea8fcb9fb23800eaf4452"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "pending",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2026-04-24T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2026-04-25T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-04-15T18:44:12.628Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T18:44:12.628Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67fea9b5b9fb23800eaf445b"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "paid",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-05-15T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-05-16T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-04-15T18:47:17.826Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T18:50:07.550Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67feac60b9fb23800eaf4471"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "alexandria",
+      "exactSpot": "kafr abdo"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "paid",
+  "totalCost": 950,
+  "startDate": {
+    "$date": "2025-06-15T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-16T10:00:00.000Z"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-04-15T18:58:40.519Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T18:59:40.644Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "67feb259ea74f7af1125ff2c"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba82"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "Sharm ElSheikh",
+      "exactSpot": "Beach"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "paid",
+  "totalCost": 2500,
+  "startDate": {
+    "$date": "2026-06-15T10:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2026-06-16T10:00:00.000Z"
+  },
+  "status": "completed",
+  "createdAt": {
+    "$date": "2025-04-15T19:24:09.603Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T19:27:52.877Z"
+  },
+  "__v": 0,
+  "discountApplied": 0
+},
+{
+  "_id": {
+    "$oid": "683e823107d904748c117d76"
+  },
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba86"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "cairo",
+      "exactSpot": "tagamoa"
+    }
+  },
+  "paymentMethod": "cash",
+  "paymentStatus": "cancelled",
+  "totalCost": 12000,
+  "startDate": {
+    "$date": "2025-06-06T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "status": "cancelled",
+  "discountApplied": 0,
+  "createdAt": {
+    "$date": "2025-06-03T05:03:45.814Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T05:09:25.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683e842f31003faeabea0b1b"
+  },
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "car": {
+    "$oid": "67d72eb112d83f438a7fba86"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "cairo",
+      "exactSpot": "tagamoa"
+    }
+  },
+  "paymentMethod": "cash",
+  "paymentStatus": "pending",
+  "totalCost": 15000,
+  "startDate": {
+    "$date": "2025-06-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-10T00:00:00.000Z"
+  },
+  "status": "pending",
+  "discountApplied": 0,
+  "createdAt": {
+    "$date": "2025-06-03T05:12:15.208Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T05:12:15.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f21febb62ee54d2542abb"
+  },
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "car": {
+    "$oid": "681e4977749dd337649ced36"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "giza",
+      "exactSpot": "haram"
+    }
+  },
+  "paymentMethod": "cash",
+  "paymentStatus": "cancelled",
+  "totalCost": 135000,
+  "startDate": {
+    "$date": "2025-06-05T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-20T00:00:00.000Z"
+  },
+  "status": "cancelled",
+  "discountApplied": 0,
+  "createdAt": {
+    "$date": "2025-06-03T16:25:34.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T16:41:19.524Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684075a0a83c2d929faf6825"
+  },
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "car": {
+    "$oid": "681e4977749dd337649ced31"
+  },
+  "pickupLocation": {
+    "address": {
+      "city": "aswan",
+      "exactSpot": "ay heta"
+    }
+  },
+  "paymentMethod": "credit-card",
+  "paymentStatus": "paid",
+  "totalCost": 18000,
+  "startDate": {
+    "$date": "2025-06-07T00:00:00.000Z"
+  },
+  "endDate": {
+    "$date": "2025-06-09T00:00:00.000Z"
+  },
+  "status": "pending",
+  "discountApplied": 0,
+  "createdAt": {
+    "$date": "2025-06-04T16:34:40.535Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T16:35:03.247Z"
+  },
+  "__v": 0
+}]

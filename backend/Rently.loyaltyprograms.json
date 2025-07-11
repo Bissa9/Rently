@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "67feb338d82bd966d1fc3a6a"
+  },
+  "user": {
+    "$oid": "67e330e4f0314e37afc2eb2b"
+  },
+  "pointsRedeemed": 0,
+  "pointsBalance": 260,
+  "pointsEarned": 0,
+  "expirationDate": {
+    "$date": "2026-04-10T19:27:52.898Z"
+  },
+  "status": "active",
+  "discountCodes": [],
+  "createdAt": {
+    "$date": "2025-04-15T19:27:52.884Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T19:27:52.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682bb8900f9033a56f85dccb"
+  },
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "pointsRedeemed": 40000,
+  "pointsBalance": 40000,
+  "pointsEarned": 0,
+  "expirationDate": {
+    "$date": "2026-05-15T00:20:33.875Z"
+  },
+  "status": "active",
+  "discountCodes": [
+    {
+      "code": "DISCOUNT-20000-1747697128209",
+      "redeemedAt": {
+        "$date": "2025-05-19T23:25:28.212Z"
+      },
+      "_id": {
+        "$oid": "682bbde8896af1547f86a7d7"
+      },
+      "used": true
+    },
+    {
+      "code": "DISCOUNT-10000-1747697832102",
+      "redeemedAt": {
+        "$date": "2025-05-19T23:37:12.103Z"
+      },
+      "_id": {
+        "$oid": "682bc0a8896af1547f86a7fc"
+      },
+      "used": true
+    },
+    {
+      "code": "DISCOUNT-10000-1747700433874",
+      "redeemedAt": {
+        "$date": "2025-05-20T00:20:33.874Z"
+      },
+      "_id": {
+        "$oid": "682bcad1896af1547f86a812"
+      },
+      "used": false
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-04-15T19:27:52.884Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-02T23:18:31.104Z"
+  },
+  "__v": 5
+}]

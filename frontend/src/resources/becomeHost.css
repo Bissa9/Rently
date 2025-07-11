@@ -1,0 +1,208 @@
+#become-host-page {
+  margin: 0px 1%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 20px;
+  overflow: hidden;
+}
+#benefits-content {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#car-keys {
+  width: 250px;
+  height: 250px;
+  margin-right: 1%;
+}
+.benefits-titles {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+#benefits,
+#terms {
+  width: 50%;
+  margin: 0% 1%;
+}
+#benefits,
+#terms,
+#terms-content p {
+  font-size: 18px;
+}
+#benefits li,
+#terms li {
+  margin-bottom: 5px;
+}
+#terms-content p {
+  margin: 1% 3%;
+  width: 75%;
+}
+#continue-button {
+  margin: 35px 30px;
+  align-self: flex-end;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.terms-checkbox {
+  accent-color: #ff6b35;
+  background-color: var(--secondary);
+  width: 25px;
+  height: 25px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.terms-checkbox:hover {
+  cursor: pointer;
+}
+.terms-checkbox:checked::before {
+  content: "✔";
+  font-size: 17px;
+  color: white;
+  background-color: var(--secondary);
+}
+
+.error-container {
+  min-height: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.custom-checkbox input {
+  display: none; /* Hide default checkbox */
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s;
+}
+
+.custom-checkbox input:checked + .checkmark {
+  background-color: var(--secondary);
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  content: "✔";
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.red-box {
+  border: 1px solid red !important;
+}
+.host-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.host-message {
+  text-align: center;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 800px) {
+  #become-host-back-button {
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+  #benefits-content,
+  #terms-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  /* Full width benefits/terms */
+  #benefits,
+  #terms {
+    width: 90%;
+  }
+
+  /* Make text smaller for smaller screens */
+  #benefits,
+  #terms,
+  #terms-content p {
+    font-size: 18px;
+  }
+
+  /* Center align back button in mobile */
+  .back-button {
+    top: 10px;
+    left: 10px;
+  }
+
+  /* Reduce checkbox size for smaller screens */
+  .terms-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  .checkmark {
+    width: 18px;
+    height: 18px;
+  }
+
+  .custom-checkbox input:checked + .checkmark::after {
+    font-size: 14px;
+  }
+
+  /* Adjust spacing for mobile */
+  #continue-button {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Make sure images don’t overflow */
+  #car-keys {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+  .checkbox-container {
+    font-size: 17px;
+  }
+}

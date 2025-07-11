@@ -1,0 +1,365 @@
+#search-bar {
+  background-color: var(--primary);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  z-index: 1000;
+}
+.input-container {
+  background-color: white;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+.search-page-date-picker {
+  width: 25%; /* match input-container:first-of-type */
+  background-color: white;
+  border-radius: 10px; /* same as input-container */
+  height: 40px; /* match height */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px; /* match padding */
+  position: relative;
+}
+.search-input-field {
+  border: none;
+  height: 100%; /* fill parent */
+  padding: 0 10px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px; /* optional, for inner input styling */
+  box-sizing: border-box; 
+}
+
+
+/* Address input - 30% width */
+.input-container:first-of-type {
+  width: 30%;
+}
+
+/* Date inputs - 25% width each */
+.input-container:nth-of-type(2),
+.input-container:nth-of-type(3) {
+  width: 25%;
+}
+.calendar-icon {
+  color: var(--secondary);
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-container input:focus,
+.search-input-field:focus {
+  outline: none;
+}
+
+.icon {
+  color: var(--secondary);
+  font-size: 18px;
+}
+
+#search-page-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100vh; 
+overflow: hidden;  }
+
+
+.filter-section {
+  border-right: 1px solid var(--grey);
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  width: 25%;
+  height: calc(100vh - 80px);
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+   overflow-y: auto;
+}
+.filter-groups-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.filter-section h1 {
+   padding-top: 5px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+.filter-group {
+  margin-left: 10px;
+}
+.filter-groups-container::-webkit-scrollbar {
+  width: 6px; /* Adjust scrollbar width */
+}
+/*  Firefox */
+.filter-groups-container {
+  scrollbar-width: thin;
+}
+.close-filter-btn {
+  display: none;
+}
+.filter-toggle {
+  display: none;
+}
+.price-filter{
+  margin-left: 10px;
+}
+.price-slider-wrapper{
+  padding: 10px ;
+}
+ 
+.price-slider-wrapper .rc-slider-rail, .price-slider-wrapper .rc-slider-handle , .price-slider-wrapper .rc-slider-handle:active{
+  cursor: pointer;
+}
+#found-cars {
+  padding: 10px; 
+  height: calc(100vh - 70px); 
+  overflow-y: auto; 
+  overflow-x: hidden;
+  flex-grow: 1; 
+  padding-top: 70px; 
+}
+#no-cars-found {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* or 100vh for full viewport height */
+  font-size: 1.2rem;
+  color: #555;
+}  
+  /* Each collapsible section */
+  .collapsible-section {
+    border:none;
+    overflow: hidden;
+   
+  }
+  
+  /* Header button (title + arrow) */
+  .collapsible-header {
+    width: 100%;
+ 
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+  
+ 
+  
+  /* Arrow styling */
+  .arrow {
+    font-size: 14px;
+    
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg);
+  }
+  
+  /* Content inside the collapsible section */
+  .collapsible-content {
+    padding: 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px; /* Prevent overflow */
+    overflow-y: auto;
+  }
+  
+  /* Checkboxes inside content */
+  .collapsible-content .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    html, body {
+    /* Firefox */
+    scrollbar-width: none;
+    /* IE 10+ */
+    -ms-overflow-style: none;
+  }
+
+  /* WebKit browsers (Chrome, Safari, Edge) */
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+  }
+
+  .filter-open {
+  position: fixed; /* Make it overlay the whole screen */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: 9999; /* Ensure it's above everything */
+  background-color: white;
+  padding: 80px 20px 20px; /* top padding to avoid overlap with header */
+  overflow-y: auto;
+}
+
+  /* Parent container */
+  #search-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+  }
+#search-page-content{
+ overflow: visible !important;
+  height: auto !important;
+    overflow: visible !important;
+    display: block;  
+}
+  /* Search Bar */
+  #search-bar {
+    flex-direction: column;
+    gap: 10px;
+    position: relative !important;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+ #search-bar .search-bar-back-btn {
+    position: absolute;
+    left: 10px; /* Align it to the left of the search bar */
+    top: 40px; /* Align it to the top of the search bar, where input fields start */
+  }
+
+  /* Input containers */
+  .input-container {
+    width: 88% !important;
+    
+  }
+  .search-page-date-picker {
+    width: 88% !important;
+    height: 40px;
+    padding: 5px;
+  }
+
+  /* Filter Section - Hide for Mobile */
+  .filter-section {
+    display: none;
+  }
+ #found-cars {
+  padding-top: 0px;
+    height: auto !important;
+     overflow-y: visible !important;
+     align-self: stretch;
+      margin: 0 auto 20px;
+  }
+
+  /* Buttons */
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    width: 90%;
+    gap: 5%;
+  }
+
+  .buttons-container button,
+  .filter-toggle {
+    width: 60% !important;
+  }
+
+  .filter-toggle {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    gap: 5px;
+    padding: 15px 25px;
+    border-radius: 12px;
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+    cursor: pointer;
+  }
+
+  .filter-toggle span {
+    font-size: 18px;
+  }
+
+  .filter-toggle:hover {
+    background-color: #ff7f50;
+  }
+
+  /* Collapsible Header Adjustments */
+  .collapsible-header {
+    font-size: 16px;
+    padding-right: 30px;
+  }
+
+  .collapsible-content {
+    padding: 8px 20px;
+  }
+
+  /* Full-Screen Filter */
+  .filter-open {
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .filter-header {
+    padding: 10px;
+    background-color: var(--light-grey);
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .filter-items {
+    padding: 10px;
+    background: white;
+    border-left: 3px solid var(--primary);
+  }
+
+.close-filter-btn {
+  display: block !important; /* Make sure it's visible */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10000;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: var(--grey);
+  cursor: pointer;
+}
+
+}

@@ -1,0 +1,1748 @@
+[{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba81"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742766000/newestRedTyota1_xrhclu.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742765998/newestRedTyota2_ilnx9u.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741556749/redTyota3_u9vkfd.avif"
+  ],
+  "licensePlate": "1325 س ب ق",
+  "color": "Red",
+  "make": "Toyota",
+  "model": "Corolla 2024",
+  "mileage": 20000,
+  "pricePerDay": 950,
+  "carbonFootprint": 124,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "A reliable sedan.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba82"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1741565564/navyBlueSUV2_ocaw1m.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742766430/newestVolvoBlue_dbfeit.webp"
+  ],
+  "licensePlate": "ي ث ض 5768",
+  "color": "Navy Blue",
+  "make": "Volvo",
+  "model": "XC90 2019",
+  "mileage": 20000,
+  "pricePerDay": 2500,
+  "carbonFootprint": 181,
+  "type": "SUV",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "A stylish SUV.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Sharm El Sheikh",
+    "spots": [
+      "Naama Bay"
+    ]
+  },
+  "updatedAt": {
+    "$date": "2025-04-15T19:27:52.888Z"
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba83"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1741565523/blackSkoda2_orz7c1.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742766641/blackSkoda1newesttt_pi66ts.jpg"
+  ],
+  "licensePlate": "5061 س ف غ",
+  "color": "Black",
+  "make": "Skoda",
+  "model": "Octavia 2023",
+  "mileage": 20000,
+  "pricePerDay": 1100,
+  "carbonFootprint": 115,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "A powerful car.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba84"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1741566091/whiteTesla1_k9qk7l.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741566094/whiteTesla2_bn5o4h.jpg"
+  ],
+  "licensePlate": "م ع ل 4288",
+  "color": "White",
+  "make": "Tesla",
+  "model": "Model 3 2024",
+  "mileage": 5000,
+  "pricePerDay": 3200,
+  "carbonFootprint": 43,
+  "type": "Sedan",
+  "fuelType": "Electric",
+  "transmissionType": "single-speed transmission",
+  "description": "An eco friendly and fully electric sedan.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba85"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742767063/newestBMW1_a77xd6.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742767055/bmwX52_x8j2yj.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742767057/bmwX53_dcesm7.jpg"
+  ],
+  "licensePlate": "ل ف ر 9071",
+  "color": "Silver",
+  "make": "BMW",
+  "model": "X5 2020",
+  "mileage": 20000,
+  "pricePerDay": 3200,
+  "carbonFootprint": 40,
+  "type": "SUV",
+  "fuelType": "Hybrid",
+  "transmissionType": "Automatic",
+  "description": "A luxurious and spacious SUV.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Gouna",
+    "spots": [
+      "Downtown"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba86"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1741566662/AudiA41_orsg4k.avif",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741566953/audiA4_dnibuc.jpg"
+  ],
+  "licensePlate": "ب ا م 2086",
+  "color": "Gray Metallic",
+  "make": "Audi",
+  "model": "A4 2024",
+  "mileage": 50000,
+  "pricePerDay": 3000,
+  "carbonFootprint": 130,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "A premium and comfortable sedan.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba87"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1741566656/greenJeep1_lj3q32.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741566658/greenJeep2_vfj64l.jpg"
+  ],
+  "licensePlate": "ل غ ث 8896",
+  "color": "Green",
+  "make": "Jeep",
+  "model": "Cherokee 2019",
+  "mileage": 20000,
+  "pricePerDay": 3000,
+  "carbonFootprint": 213,
+  "type": "SUV",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "Excellent Choice for Safari.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Siwa",
+    "spots": [
+      "Siwa Center"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba88"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742767652/optra1Newest_s0hago.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742767659/optra222Newest_jwtzg0.png"
+  ],
+  "licensePlate": "1548 ا ن س",
+  "color": "Champagne",
+  "make": "Chevrolet",
+  "model": "Optra 2021",
+  "mileage": 12000,
+  "pricePerDay": 600,
+  "carbonFootprint": 175,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "A practical Sedan.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba89"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742768885/newestNissaan1_g8my4w.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742768850/newestNissaan2_ysgqas.png"
+  ],
+  "licensePlate": "4821 و ع ث",
+  "color": "Silver",
+  "make": "Nissan",
+  "model": "Sunny 2022",
+  "mileage": 22000,
+  "pricePerDay": 600,
+  "carbonFootprint": 160,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "A practical and efficient sedan.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba8a"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742769371/newestHyandaiTayson_e9af9s.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742769369/newestHyandaiTayson222_ke648f.jpg"
+  ],
+  "licensePlate": "9742 ق ب ت",
+  "color": "Dark Gray",
+  "make": "Hyundai",
+  "model": "Tucson 2019",
+  "mileage": 17000,
+  "pricePerDay": 1200,
+  "carbonFootprint": 165,
+  "type": "SUV",
+  "fuelType": "Gasoline",
+  "transmissionType": "Manual",
+  "description": "A modern and versatile SUV.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73c28f190c01d8aae8773"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba8b"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1741573602/chevorletAveo1_uwcc1j.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741573604/chevorletAveo2_r6ss2m.jpg"
+  ],
+  "licensePlate": "6190 م ص ة",
+  "color": "Blue",
+  "make": "Chevrolet",
+  "model": "Aveo 2012",
+  "mileage": 14000,
+  "pricePerDay": 360,
+  "carbonFootprint": 132,
+  "type": "Hatchback",
+  "fuelType": "Gasoline",
+  "transmissionType": "Manual",
+  "description": "A compact and fun-to-drive hatchback.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba8c"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742770026/NewesstfiatPunto1_w2xnqg.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742770024/Newesttpunto2019_y715lu.jpg"
+  ],
+  "licensePlate": "4027 س ب ش",
+  "color": "Red",
+  "make": "Fiat",
+  "model": "Punto 2017",
+  "mileage": 8000,
+  "pricePerDay": 500,
+  "carbonFootprint": 132,
+  "type": "Hatchback",
+  "fuelType": "Gasoline",
+  "transmissionType": "Manual",
+  "description": "A cute, semi eco-friendly city car.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba8d"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742770328/NewestWhitemercdes1-processed_meb8n3.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742770325/NewestWhitemercdes222-processed_utk1zl.jpg"
+  ],
+  "licensePlate": "9752 س ب ل",
+  "color": "White",
+  "make": "Mercedes-Benz",
+  "model": "C180 2015",
+  "mileage": 19000,
+  "pricePerDay": 1500,
+  "carbonFootprint": 116,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "A luxurious sedan.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba8e"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742770723/newestKiaPico111_j5ykya.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742770734/NewestLiaPicooo1_z6oylg.jpg"
+  ],
+  "licensePlate": "4179 س ل ن",
+  "color": "Red",
+  "make": "Kia",
+  "model": "Picanto 2018",
+  "mileage": 23000,
+  "pricePerDay": 550,
+  "carbonFootprint": 170,
+  "type": "Hatchback",
+  "fuelType": "Gasoline",
+  "transmissionType": "Manual",
+  "description": "A cute and small city car.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba8f"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742770948/newestByd11_cdjmm9.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741573610/byd2_hbrroz.jpg"
+  ],
+  "licensePlate": "671 م م ط",
+  "color": "Gold",
+  "make": "BYD",
+  "model": "F3 2015",
+  "mileage": 16000,
+  "pricePerDay": 500,
+  "carbonFootprint": 135,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Manual",
+  "description": "An easy going sedan.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Aswan",
+    "spots": [
+      "Corniche",
+      "Nubian Village",
+      "Aswan Train Station"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba90"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742771268/newestVolkss11_rk6ryv.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742771266/newestVolkss222_ai1afb.jpg"
+  ],
+  "licensePlate": "7938 ج و ج",
+  "color": "Light Gray",
+  "make": "Volkswagen",
+  "model": "ID.4 2024",
+  "mileage": 16000,
+  "pricePerDay": 2000,
+  "carbonFootprint": 0,
+  "type": "SUV",
+  "fuelType": "Electric",
+  "transmissionType": "single-speed transmission",
+  "description": "A perfect fully eco friendly electric car.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Luxor",
+    "spots": [
+      "Karnak Temple",
+      "Luxor Temple"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba91"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742771577/NewestttvanHyndaiH1-processed_uvmceg.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741729370/vaninside_tzmk0s.jpg"
+  ],
+  "licensePlate": "5921 س ق ف",
+  "color": "ًWhite",
+  "make": "Hyundai",
+  "model": "H1 2015",
+  "mileage": 16000,
+  "pricePerDay": 2500,
+  "carbonFootprint": 220,
+  "type": "Van",
+  "fuelType": "Diesel",
+  "transmissionType": "Manual",
+  "description": "A comfortable 12 passenger Van.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Siwa",
+    "spots": [
+      "Siwa Center"
+    ]
+  },
+  "seats": 12
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba92"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742771720/Newestttkingovan1_kq82xk.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1742771717/Newesttkingovan2_ui359l.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741729867/kingovaninside_szfkrb.jpg"
+  ],
+  "licensePlate": "8209 س ل ع",
+  "color": "ًWhite",
+  "make": "King Long",
+  "model": "Cam Kingo 2020",
+  "mileage": 20000,
+  "pricePerDay": 3000,
+  "carbonFootprint": 200,
+  "type": "Van",
+  "fuelType": "Diesel",
+  "transmissionType": "Manual",
+  "description": "A comfortable 18 passenger Van.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Gouna",
+    "spots": [
+      "Downtown"
+    ]
+  },
+  "seats": 18
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba93"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1742772009/Newestttminibus1-processed_mwmbwe.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741730488/Toyota-CoasterfromInside_mjj3mu.jpg"
+  ],
+  "licensePlate": "9846 ط ق ا",
+  "color": "ًWhite",
+  "make": "Toyota",
+  "model": "Coaster 2024",
+  "mileage": 16000,
+  "pricePerDay": 4300,
+  "carbonFootprint": 330,
+  "type": "Mini Bus",
+  "fuelType": "Diesel",
+  "transmissionType": "Manual",
+  "description": "A comfortable 24 passenger Mini Bus.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Dahab",
+    "spots": [
+      "Lighthouse",
+      "Blue Hole",
+      "Assalah"
+    ]
+  },
+  "seats": 24
+},
+{
+  "_id": {
+    "$oid": "67d72eb112d83f438a7fba94"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1741732476/TOYOTA-Coaster_30Passenger_itxmji.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1741732470/30-seater-minbusfronInside_fskunx.jpg"
+  ],
+  "licensePlate": "8207 س ة ز",
+  "color": "ًBrown/White",
+  "make": "Toyota",
+  "model": "Coaster 2024",
+  "mileage": 16000,
+  "pricePerDay": 6000,
+  "carbonFootprint": 330,
+  "type": "Mini Bus",
+  "fuelType": "Diesel",
+  "transmissionType": "Manual",
+  "description": "A comfortable 30 passenger Mini Bus.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Sharm El Sheikh",
+    "spots": [
+      "Naama Bay"
+    ]
+  },
+  "seats": 30
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced28"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746548059/teslas3-_tm1ecw.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746547973/teslas3_tcvhjg.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746548059/teslas3in_biuvp2.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746548059/teslas3main_yxoxkh.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746548059/teslas3in2_cexrr4.webp"
+  ],
+  "licensePlate": "8208 س ع ا",
+  "color": "Black",
+  "make": "Tesla",
+  "model": "S3 2020",
+  "mileage": 38823,
+  "pricePerDay": 9000,
+  "carbonFootprint": 81,
+  "type": "Sedan",
+  "fuelType": "Electric",
+  "transmissionType": "Automatic",
+  "description": "a fully electric eco friendly compact executive sedan that combines performance, minimalist design, and advanced technology. It features a sleek, aerodynamic body with a glass roof, a spacious interior dominated by a central touchscreen, and seating for five passengers. Known for its quick acceleration, the Model 3 offers multiple variants, including Standard Range Plus, Long Range, and Performance trims, with ranges of up to 570 km (354 miles) per charge. It includes advanced safety features, over-the-air software updates, and access to Tesla’s Autopilot system for semi-autonomous driving.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alamein",
+    "spots": [
+      "New Alamein",
+      "North Coast Gate"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced29"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746549430/merc_ms6hrs.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746549432/merc3_mzaylo.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746549432/merc4_wrp7cf.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746549431/merc2_fbk3zl.jpg"
+  ],
+  "licensePlate": "9213 س ع ز",
+  "color": "Black",
+  "make": "Mercedes-Benz",
+  "model": "GLC-300 AMG",
+  "mileage": 49000,
+  "pricePerDay": 7500,
+  "carbonFootprint": 167,
+  "type": "SUV",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "a luxury compact SUV that blends sporty performance with refined comfort and all-weather capability. Powered by a turbocharged 2.0-liter 4-cylinder engine paired with a mild hybrid system, it delivers around 258 horsepower and smooth acceleration through a 9-speed automatic transmission. The AMG styling package enhances its exterior with aggressive bumpers, larger wheels, and sportier details, while the 4MATIC all-wheel drive system provides confident handling and traction. Inside, it offers a premium cabin with high-quality materials, advanced infotainment, and driver assistance features, making it a versatile SUV for both city and highway driving",
+  "availabilityStatus": true,
+  "disabled": true,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced2a"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746550271/rr3_faiwq0.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746550272/rr4_kdfqba.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746550270/rr2_f0sjgn.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746550273/rr5_gkvetn.jpg"
+  ],
+  "licensePlate": "5935 ا ق و",
+  "color": "Gray",
+  "make": "Range Rover",
+  "model": "Velar 2022",
+  "mileage": 14000,
+  "pricePerDay": 9000,
+  "carbonFootprint": 194,
+  "type": "SUV",
+  "fuelType": "Hybrid",
+  "transmissionType": "Automatic",
+  "description": "The 2022 Range Rover Velar combines luxury and performance with a bold, modern design. This mid-size SUV offers a range of powerful engines, including petrol, diesel, and a plug-in hybrid option, all paired with an 8-speed automatic transmission and all-wheel drive. With an impressive fuel economy and a spacious interior that accommodates up to five passengers, the Velar delivers comfort and versatility. Whether navigating city streets or off-road terrain, its advanced technology and refined style make it the perfect choice for those who demand both elegance and capability.",
+  "availabilityStatus": true,
+  "disabled": true,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Aswan",
+    "spots": [
+      "Corniche",
+      "Nubian Village",
+      "Aswan Train Station"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced2b"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746551898/2023-chevrolet-corvette-stingray-convertible-3lt-z51-307-1665496970_rajkde.avif",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746551899/2023-chevrolet-corvette-stingray-convertible-3lt-z51-888-1665496991_zoytwt.avif",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746551898/2023-chevrolet-corvette-stingray-convertible-3lt-z51-342-1665496978_a5vohh.avif"
+  ],
+  "licensePlate": "9255 س ع ب",
+  "color": "White",
+  "make": "Chevrolet",
+  "model": "Corvette Z51",
+  "mileage": 10000,
+  "pricePerDay": 10000,
+  "carbonFootprint": 320,
+  "type": "Sports",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2023 Chevrolet Corvette Z51 is a high-performance sports car that blends iconic design with cutting-edge engineering. Powered by a 6.2L V8 engine, the Z51 Performance Package adds upgraded suspension, brakes, cooling, and an electronic limited-slip differential, making it ideal for track enthusiasts. With its aggressive styling, mid-engine layout, and rapid acceleration, the Corvette Z51 delivers a thrilling driving experience and exceptional handling on both road and track.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alamein",
+    "spots": [
+      "New Alamein",
+      "North Coast Gate"
+    ]
+  },
+  "seats": 2
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced2c"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552232/pc_eckrqd.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552231/pc3_k187vo.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552229/pc2_hv0krm.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552230/pc4_rxlvzo.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552231/pc5_s7j6sa.webp"
+  ],
+  "licensePlate": "9213 ا ع ز",
+  "color": "Montego Blue Metallic",
+  "make": "Porsche",
+  "model": "Cayenne Base 2024",
+  "mileage": 16665,
+  "pricePerDay": 15000,
+  "carbonFootprint": 243,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "a luxury midsize SUV that seamlessly blends performance, comfort, and cutting-edge technology. Powered by a 3.0-liter turbocharged V6 engine producing 348 horsepower, it offers brisk acceleration and confident handling. The 8-speed automatic transmission and all-wheel-drive system ensure smooth and responsive driving dynamics. Inside, the Cayenne features a refined cabin with high-quality materials, advanced infotainment systems, and ample space for five passengers. With its versatile cargo capacity and a range of customizable options, the Cayenne Base caters to those seeking both practicality and the driving excitement synonymous with the Porsche brand.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced2d"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552808/ford_pkeseh.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552916/f1_f5gbyy.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552792/f5_wbp6lc.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552921/f3_brzasv.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746552915/f6_jilllv.webp"
+  ],
+  "licensePlate": "5423 س ع ع",
+  "color": "Black",
+  "make": "Ford",
+  "model": "Mustang EcoBoost Premium 2025",
+  "mileage": 32400,
+  "pricePerDay": 12000,
+  "carbonFootprint": 214,
+  "type": "Coupe",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "blends iconic design with modern performance. Powered by a turbocharged 2.3L EcoBoost® engine delivering 315 horsepower and 350 lb-ft of torque, it offers exhilarating acceleration and responsive handling. The 10-speed SelectShift® automatic transmission ensures smooth gear transitions, while rear-wheel drive provides a classic sports car experience.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "seats": 4
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced2e"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553225/ferrari2_vzkvjo.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553226/ferrari3_ry85of.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553227/ferrari4_lu0oh6.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553229/ferrari_qez5gi.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553229/ferrari5_hybkqo.webp"
+  ],
+  "licensePlate": "1438 س ف ر",
+  "color": "Red",
+  "make": "Ferrari",
+  "model": "296 GTS",
+  "mileage": 0,
+  "pricePerDay": 9000,
+  "carbonFootprint": 153,
+  "type": "Cabriolet",
+  "fuelType": "Hybrid",
+  "transmissionType": "Automatic",
+  "description": "a plug-in hybrid sports car that combines a twin-turbocharged 3.0-liter V6 engine with an electric eco friendly motor, delivering a total output of 830 horsepower. This powertrain enables the 296 GTS to accelerate from 0 to 100 km/h in just 2.9 seconds and reach a top speed exceeding 330 km/",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "seats": 2
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced2f"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553634/mazda_kmnzuf.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553632/o2cZyOlPsyGTe8DornMIzevWBYI_zxswly.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553630/QYczfj_D9rmD8muSJXPrzpECmdw_wuig7i.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553630/WzsqAyBWiKJUWcp1uIGCFrsazMk_bmni9h.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746553633/0i5MFD3B0XF2BORHIVwBKne2fLg_a8qmor.webp"
+  ],
+  "licensePlate": "9213 ق ع ز",
+  "color": "Black",
+  "make": "Mazda",
+  "model": "Mazda3 2024",
+  "mileage": 9692,
+  "pricePerDay": 8000,
+  "carbonFootprint": 123,
+  "type": "Hatchback",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "a compact car available in both sedan and hatchback body styles. It offers a choice of engines, including the naturally aspirated Skyactiv-G 2.5-liter engine producing 191 horsepower and 186 lb-ft of torque. The Mazda3 is known for its engaging driving dynamics, premium interior materials, and advanced safety features. It comes equipped with a user-friendly infotainment system and offers options like all-wheel drive and a turbocharged engine for enhanced performance.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced30"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554117/opel_nsjxdm.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554113/webp_listing_main_2018_Opel_Corsa__6__uqvkuq.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554112/webp_listing_main_2018_Opel_Corsa__5__c8wfqy.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554116/webp_listing_main_2018_Opel_Corsa__3__q35zko.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554120/webp_listing_main_2018_Opel_Corsa__2__pnspnv.webp"
+  ],
+  "licensePlate": "9213 س ع ض",
+  "color": "Red",
+  "make": "Opel",
+  "model": "Corsa 2025",
+  "mileage": 30823,
+  "pricePerDay": 5000,
+  "carbonFootprint": 120,
+  "type": "Hatchback",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "a modern and versatile compact hatchback that blends advanced technology, efficiency, and stylish design. It offers a range of powertrains to suit various driving preferences",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alamein",
+    "spots": [
+      "New Alamein",
+      "North Coast Gate"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced31"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554615/webp_listing_main_MG_MG7-exterior-01_ygxfv9.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554618/webp_listing_main_MG_MG7-exterior-02_esk0oo.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554613/webp_listing_main_MG_MG7-exterior-05_hdvocy.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746554614/webp_listing_main_MG_MG7-interior-07_gjjyma.webp",
+    ""
+  ],
+  "licensePlate": "9213 س ع غ",
+  "color": "Green",
+  "make": "MG",
+  "model": "7 2025",
+  "mileage": 1000,
+  "pricePerDay": 9000,
+  "carbonFootprint": 143,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "a mid-size fastback sedan that combines luxury, performance, and advanced technology. It features a sleek design with aerodynamic lines and a bold front grille, reminiscent of premium European sedans",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "location": {
+    "city": "Aswan",
+    "spots": [
+      "Corniche",
+      "Nubian Village",
+      "Aswan Train Station"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced32"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746692896/hyundai_jdyhcw.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746692964/hyundai1_z7fxps.jpg"
+  ],
+  "licensePlate": "5832 س ب ز",
+  "color": "Silver",
+  "make": "Hyundai",
+  "model": "Avante 2012",
+  "mileage": 115000,
+  "pricePerDay": 800,
+  "carbonFootprint": 142,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2012 Hyundai Avante is equipped with a 1.6-liter GDi (Gasoline Direct Injection) inline-4 engine, producing around 138 horsepower. It offers a choice between a 6-speed manual or 6-speed automatic transmission, delivering power to the front wheels.This model is known for its sleek design, spacious interior, and fuel efficiency. With a wheelbase of 2,700 mm, it provides ample legroom for passengers. The Avante's suspension setup ensures a comfortable ride, making it suitable for both city commuting and longer journeys",
+  "availabilityStatus": true,
+  "disabled": true,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Giza",
+    "spots": [
+      "Mohandessin",
+      "6th of October"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced33"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746693447/full_up_16240a243ac45435ba4094032ca85ef8_xld3oa.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746693447/full_up_8dddd90cbd3c5219b411b65816289464_yzv4ht.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746693449/full_up_7bd7d8e34a2918b29a2fba126c372b57_yeccmh.jpg"
+  ],
+  "licensePlate": "6281 د ع ز",
+  "color": "Blue",
+  "make": "Peugeot",
+  "model": "3008 2020",
+  "mileage": 42000,
+  "pricePerDay": 2000,
+  "carbonFootprint": 133,
+  "type": "SUV",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": " a compact SUV that combines stylish design, advanced technology, and efficient performance. It features Peugeot's signature i-Cockpit® interior, offering a 12.3-inch digital instrument panel and an 8-inch touchscreen infotainment system. The exterior boasts a bold front grille, sleek LED headlights, and a dynamic silhouette",
+  "availabilityStatus": true,
+  "disabled": true,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Giza",
+    "spots": [
+      "Mohandessin",
+      "6th of October"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced34"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746693852/141398358-600x450_cfsgaj.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746693852/141398356-600x450_vqsx2u.webp"
+  ],
+  "licensePlate": "4381 د ص ر",
+  "color": "Black",
+  "make": "Hyundai",
+  "model": "Elantra 2012",
+  "mileage": 155000,
+  "pricePerDay": 500,
+  "carbonFootprint": 148,
+  "type": "Sedan",
+  "fuelType": "Diesel",
+  "transmissionType": "Automatic",
+  "description": "The 2012 Hyundai Elantra MD is a stylish and fuel-efficient compact sedan, known for its sleek design, comfortable interior, and reliable 1.6L gasoline engine",
+  "availabilityStatus": true,
+  "disabled": true,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Aswan",
+    "spots": [
+      "Corniche",
+      "Nubian Village",
+      "Aswan Train Station"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced35"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694139/toyota_mehwof.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694140/5ft9y-I_t0tGfFQzxWlfJvGOrEc_i6gcfc.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694140/t9snaHyyWW-AfE4riwi_ES99lVQ_pc3h0d.webp"
+  ],
+  "licensePlate": "3214 ج ع ز",
+  "color": "White",
+  "make": "Toyota",
+  "model": "RAV4 XLE",
+  "mileage": 50000,
+  "pricePerDay": 6000,
+  "carbonFootprint": 165,
+  "type": "SUV",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The Toyota RAV4 XLE is a popular compact SUV that balances utility, comfort, and fuel efficiency. The XLE trim typically includes features like alloy wheels, a power moonroof, dual-zone climate control, and Toyota's suite of safety tech (Toyota Safety Sense). It’s available with both front-wheel drive and all-wheel drive options and can be equipped with a traditional gasoline engine or a hybrid powertrain.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Giza",
+    "spots": [
+      "Mohandessin",
+      "6th of October"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced36"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694513/mecWDfC0xPwQSaXWvUuzBA5WcKk_uphjp5.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694512/elKS-siXH7TM9xD0mYZoq5zkh_U_ha6g1a.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694513/Al-g5HEEczCEq2h0uh3IlihFtdE_cyavod.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694512/ZZcyZmW0w_aq17h7awI4-Kem0cY_clalre.webp"
+  ],
+  "licensePlate": "5428 ج ب ز",
+  "color": "Black",
+  "make": "Jeep",
+  "model": "Wrangler Unlimited Sahara 2021",
+  "mileage": 30000,
+  "pricePerDay": 9000,
+  "carbonFootprint": 285,
+  "type": "SUV",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2021 Jeep Wrangler Unlimited Sahara is a four-door variant of Jeep's iconic off-road SUV, blending rugged capability with refined features. The Sahara trim offers body-colored fender flares, 18-inch alloy wheels, a premium infotainment system, and advanced safety technologies. It's available with multiple powertrain options, including a 3.6L V6, a 2.0L turbocharged inline-4, and a plug-in hybrid (4xe) variant.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Giza",
+    "spots": [
+      "Mohandessin",
+      "6th of October"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced37"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694884/WHRq8uTNO3r6mDkbsoeUcoJFcnQ_zogfj0.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694885/OPi4l71c1qs75vsKDi7L_oOl19U_f8ruji.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746694885/eqZ1lO2AJFcCgN3cvO9mBgyYGqc_snsqth.webp"
+  ],
+  "licensePlate": "7250 س ي ز",
+  "color": "White",
+  "make": "Mercedes-Benz",
+  "model": "S-Class S 580 4MATIC",
+  "mileage": 13413,
+  "pricePerDay": 11000,
+  "carbonFootprint": 81,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2023 Mercedes-Benz S 580 4MATIC is a flagship luxury sedan that combines opulent comfort with advanced technology and robust performance. It features a 4.0-liter V8 biturbo engine paired with a mild hybrid system (EQ Boost), delivering a total output of 496 horsepower. The 4MATIC all-wheel-drive system ensures optimal traction and stability across various driving conditions.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Aswan",
+    "spots": [
+      "Corniche",
+      "Nubian Village",
+      "Aswan Train Station"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced38"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746695182/amUn3G4QvXG3ZUY19fhSpLWuabE_pebp81.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746695181/AXd7nDKCxSnV7WfQ4fpBGEkR2kM_uehxhu.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746695181/yZAgkGTvmiYbYpOqZVfwbTqNdp0_b5tfvh.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746695182/gCZ_1EsJKgiXk5RVxkIWwUghr0U_iefsao.webp"
+  ],
+  "licensePlate": "6587 س ع ل",
+  "color": "Magnetite Black Metallic",
+  "make": "Mercedes-Benz",
+  "model": " S-Class 4MATIC 2016",
+  "mileage": 154254,
+  "pricePerDay": 6000,
+  "carbonFootprint": 202,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2016 Mercedes-Benz S-Class 4MATIC is a luxury sedan that combines advanced technology, comfort, and performance. Available in both petrol and diesel variants, it features the 4MATIC all-wheel-drive system, ensuring optimal traction and stability.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alamein",
+    "spots": [
+      "New Alamein",
+      "North Coast Gate"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced39"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746695444/GgHYGBoCzM2FJ2rfTxIwJMv5Ipw_ug9nni.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746695445/zwxk7hqqMkHARZMllsfGMcYyPX4_t6dmly.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746695444/zZ85-aDVT_y9E78OxcMMTVYT5Ko_vvdawr.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746695445/Pgo55I4_gm5EqohAgflP0H5Z_Zg_vbzxjq.webp"
+  ],
+  "licensePlate": "9263 س ن ب",
+  "color": "Black",
+  "make": "Mercedes-Benz",
+  "model": "C-Class C 300 2022",
+  "mileage": 43241,
+  "pricePerDay": 7500,
+  "carbonFootprint": 202,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2022 Mercedes-Benz C 300 is a luxury compact sedan that combines performance, comfort, and advanced technology. It features a 2.0-liter turbocharged inline-4 engine paired with a 48-volt mild-hybrid system, delivering 255 horsepower and 295 lb-ft of torque. The 4MATIC all-wheel-drive system ensures optimal traction and stability across various driving conditions.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Nasr City",
+      "Heliopolis",
+      "Zamalek"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced3a"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746697043/tV1vr2F4hwrotkzT3to88cFkzbM_oeklxn.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746697042/cZOeOXB60nB7u4zjbm6D2ygKNPo_o1z9ba.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746697042/Qb_Q47qAKfsceRixyxTpKZ13zeE_fstvib.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746697044/GebEkCwl0WcEno93xRtyaA50sps_micunk.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746697044/71T7M7khLKZq68Iy08jONsXuDww_zh1cyx.webp"
+  ],
+  "licensePlate": "6872 ج ع ز",
+  "color": "White",
+  "make": "Mercedes-Benz",
+  "model": "C-Class C 300 4MATIC 2018",
+  "mileage": 38800,
+  "pricePerDay": 6000,
+  "carbonFootprint": 214,
+  "type": "Cabriolet",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2018 Mercedes-Benz C 300 4MATIC is a luxury compact sedan that combines performance, comfort, and advanced technology. It features a 2.0-liter turbocharged inline-4 engine paired with a 9-speed automatic transmission, delivering 241 horsepower. The 4MATIC all-wheel-drive system ensures optimal traction and stability across various driving conditions.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced3b"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698234/3AEUaEbTAdA_9iQS-CuviQJ8hBk_jgwmyj.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698322/7KgUqGvlg4cJq7oNBZE1NWtuuKI_uxdp3k.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698229/2y27SKUYPrxS3FztDKcSYPBILbk_vxsguf.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698228/EqdNa65V8GItLltHr79oMyVwQwI_rgssn1.webp"
+  ],
+  "licensePlate": "6234 ب ع ز",
+  "color": "Chronos Gray Metallic",
+  "make": "Audi",
+  "model": " Q5 45 S line Premium Plus",
+  "mileage": 6418,
+  "pricePerDay": 8000,
+  "carbonFootprint": 223,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2025 Audi Q5 45 TFSI S line Premium Plus is a luxury compact SUV that combines performance, comfort, and advanced technology. It features a 2.0-liter turbocharged inline-4 engine paired with a 7-speed S tronic® dual-clutch automatic transmission, delivering 261 horsepower and 273 lb-ft of torque. The quattro® all-wheel-drive system ensures optimal traction and stability across various driving conditions. The S line Premium Plus trim adds sporty design elements and premium features, including a panoramic sunroof, Audi virtual cockpit, and advanced driver assistance systems",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Giza",
+    "spots": [
+      "Mohandessin",
+      "6th of October"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced3c"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698465/JBbg64MKc0prH3f9xLqzyrPilaA_occibk.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698466/xvbpO7fwZBukaShh2QLwSKrM-MU_mw9o5o.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698468/TJpQbZSN2ujRCe65ylsZH87R0e8_hkvhxe.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698569/rKkbXFq4ASvZoXNhpxec-eYMG8M_jhavbj.webp"
+  ],
+  "licensePlate": "1831 ق ن ز",
+  "color": "White",
+  "make": "Audi ",
+  "model": "2024 Q5 45 S line Premium",
+  "mileage": 6205,
+  "pricePerDay": 8000,
+  "carbonFootprint": 189,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2024 Audi Q5 45 TFSI S line Premium is a luxury compact SUV that blends performance, comfort, and advanced technology. It features a 2.0-liter turbocharged inline-4 engine paired with a 7-speed S tronic® dual-clutch automatic transmission, delivering 261 horsepower and 273 lb-ft of torque. The quattro® all-wheel-drive system ensures optimal traction and stability across various driving conditions. The S line Premium trim adds sporty design elements and premium features, including leather upholstery, heated front seats, a panoramic sunroof, and advanced driver assistance systems.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Matrouh",
+    "spots": [
+      "Rommel Beach",
+      "Agiba Beach",
+      "Alam El Roum"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced3d"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698891/tFqbgwe6pKr3S-0VcrO7ybzvZDM_uczuwk.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698892/2xOQ-pP7ggdcv5fLte4npt1claY_cny8kd.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698908/cSxiiB7DvDM0Wp5nkRSvn6a5EMA_dyuwzw.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746698897/8yuB2sYze4iaGczVacZx1UFpvAA_dxokjp.webp"
+  ],
+  "licensePlate": "6565 ا ع ر",
+  "color": "Gray",
+  "make": "Audi",
+  "model": "2022 Q5 45 S line Premium Plus",
+  "mileage": 104287,
+  "pricePerDay": 4000,
+  "carbonFootprint": 182,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2022 Audi Q5 45 TFSI S line Premium Plus is a luxury compact SUV that combines performance, comfort, and advanced technology. It features a 2.0-liter turbocharged inline-4 engine paired with a 7-speed S tronic® dual-clutch automatic transmission, delivering 261 horsepower and 273 lb-ft of torque. The quattro® all-wheel-drive system ensures optimal traction and stability across various driving conditions. The S line Premium Plus trim adds sporty design elements and premium features, including leather upholstery, heated front seats, a panoramic sunroof, and advanced driver assistance systems.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Luxor",
+    "spots": [
+      "Karnak Temple",
+      "Luxor Temple"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced3e"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699033/JJfH4V3_bkAM7iI7FYTDm-EFtIg_eltlnn.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699036/-ddAXh_uS3ntgc6lhQ-4v6voJ7w_f47ozj.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699034/8vY6EXu8CyvSZx6T42p6df4vLLI_kfhbsd.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699034/99t07ysA9wAsnUZBBad4aEimrLE_xyzptx.webp"
+  ],
+  "licensePlate": "5331 ن غ ز",
+  "color": "Gray",
+  "make": "Audi",
+  "model": "2019 Q5 2.0T Premium Plus",
+  "mileage": 38823,
+  "pricePerDay": 5500,
+  "carbonFootprint": 165,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2019 Audi Q5 2.0T Premium Plus is a luxury compact SUV that combines performance, comfort, and advanced technology. It features a 2.0-liter turbocharged inline-4 engine paired with a 7-speed S tronic® dual-clutch automatic transmission, delivering 248 horsepower and 273 lb-ft of torque. The quattro® all-wheel-drive system ensures optimal traction and stability across various driving conditions. The Premium Plus trim adds features like a panoramic sunroof, Audi virtual cockpit, and advanced driver assistance systems.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Luxor",
+    "spots": [
+      "Karnak Temple",
+      "Luxor Temple"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced3f"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699330/a6jmWyBJu4Ydx9tOUjb_m1Y5Xms_r1pwht.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699463/fDcks6dmVi1RNqKCs5Q8HQ-3wzI_rsjdlj.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699328/PxHAle8-AtqJQ1nu0EC5I1fonr0_sjxg1c.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699328/qzPWIkFGoEB68-AvvVXphUAn3a0_df1g6y.webp"
+  ],
+  "licensePlate": "3234 ق ع ر",
+  "color": "Gray",
+  "make": "Audi",
+  "model": "2019 Q5 2.0T Premium Plus",
+  "mileage": 100529,
+  "pricePerDay": 6600,
+  "carbonFootprint": 165,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2019 Audi Q5 2.0T Premium Plus is a luxury compact SUV that combines performance, comfort, and advanced technology. It features a 2.0-liter turbocharged inline-4 engine paired with a 7-speed S tronic® dual-clutch automatic transmission, delivering 248 horsepower and 273 lb-ft of torque. The quattro® all-wheel-drive system ensures optimal traction and stability across various driving conditions. The Premium Plus trim adds features like a panoramic sunroof, Audi virtual cockpit, and advanced driver assistance systems.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Luxor",
+    "spots": [
+      "Karnak Temple",
+      "Luxor Temple"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced40"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699765/DsKig-o5cxtnYQebpiIZIWrKrgk_bkh7pq.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699749/wmheN-lUkvYL8--FD87Z6BES1qE_yj4g1v.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746699750/Ktayc6RNjEJtABfV3MfWrj-ie40_st4nla.webp"
+  ],
+  "licensePlate": "9125 س ه ر",
+  "color": "Dark Graphite Metallic",
+  "make": "BMW",
+  "model": "2019 X3 xDrive30i",
+  "mileage": 53761,
+  "pricePerDay": 8000,
+  "carbonFootprint": 164,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2019 BMW X3 xDrive30i is a luxury compact SUV that blends performance, comfort, and advanced technology. It features a 2.0-liter turbocharged inline-4 engine producing 248 horsepower and 258 lb-ft of torque, paired with an 8-speed automatic transmission. The xDrive all-wheel-drive system ensures optimal traction and stability across various driving conditions. The Premium Plus trim adds features like a panoramic sunroof, navigation system, and advanced driver assistance systems.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Matrouh",
+    "spots": [
+      "Rommel Beach",
+      "Agiba Beach",
+      "Alam El Roum"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced41"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700013/nIKzzDJIU3z9TZl5XJ3L4hC2jFM_odl0ur.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700000/Mp6I_d9K4jwViPhA2xxrTes6H5w_kcsjij.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700100/1NXKBH4WMk2zhVDrIJpUUPHiH0w_rvsk7u.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700101/9k-WjvUQcj9RwnR3SVgUh8GBsDk_uphk7n.webp"
+  ],
+  "licensePlate": "9213 س ع ش",
+  "color": "Black",
+  "make": "Mercedes-Benz",
+  "model": "2014 E-Class E 350",
+  "mileage": 129254,
+  "pricePerDay": 2000,
+  "carbonFootprint": 205,
+  "type": "Luxury",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2014 Mercedes-Benz E 350 is a mid-size luxury vehicle available in various body styles, including sedan, coupe, and estate (wagon). It is equipped with a 3.5-liter V6 engine producing 302 horsepower and 273 lb-ft of torque, paired with a 7-speed automatic transmission. The E 350 offers both rear-wheel drive and 4MATIC all-wheel-drive options. Notable features include a refined interior, advanced safety systems, and a comfortable ride quality",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Port Said",
+    "spots": [
+      "Corniche",
+      "Fouad Street",
+      "Port Said Stadium"
+    ]
+  },
+  "seats": 5
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced42"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700396/BW5RL8rL10wLQp2oGKmgrKy5T34_qjrolw.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700342/hbYKA9EaPZQQD3C23FRE-nQras0_gs0cll.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700397/2msIakucWR2WIxdqYb1M15PwBp8_doybi2.webp"
+  ],
+  "licensePlate": "9213 س ع ر",
+  "color": "Silver",
+  "make": "BMW",
+  "model": "2015 M4 Base",
+  "mileage": 127283,
+  "pricePerDay": 3000,
+  "carbonFootprint": 199,
+  "type": "Coupe",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2015 BMW M4 is a high-performance sports coupe that succeeded the M3 Coupe, introducing a new era of performance and efficiency. It is powered by a 3.0-liter twin-turbocharged inline-six engine producing 425 horsepower and 406 lb-ft of torque. This engine is paired with either a 6-speed manual or a 7-speed dual-clutch automatic transmission. The M4 features rear-wheel drive, adaptive suspension, and a lightweight construction utilizing carbon fiber-reinforced plastic components.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Port Said",
+    "spots": [
+      "Corniche",
+      "Fouad Street",
+      "Port Said Stadium"
+    ]
+  },
+  "seats": 4
+},
+{
+  "_id": {
+    "$oid": "681e4977749dd337649ced43"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700615/no3DyYG60e-oyz2hsZQOQI02vIo_xwfht5.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700755/GFHluy_1a8MoapKWuSo9L2WheZk_nwimay.webp",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1746700616/jy5p1HP4V22rOmUnzAOM7QJ4jg8_u1xnhs.webp"
+  ],
+  "licensePlate": "9131 س ف و",
+  "color": "Black",
+  "make": "BMW ",
+  "model": "2016 M4 Base",
+  "mileage": 102154,
+  "pricePerDay": 2000,
+  "carbonFootprint": 204,
+  "type": "Coupe",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "The 2016 BMW M4 Base is a high-performance sports coupe powered by a 3.0L twin-turbo inline-6 engine delivering 425 hp. It offers sharp handling, rear-wheel drive, and a choice between a 6-speed manual or 7-speed dual-clutch automatic transmission. Designed with lightweight materials and sporty tuning, it blends everyday usability with track-capable performance.",
+  "availabilityStatus": true,
+  "disabled": false,
+  "owner": {
+    "$oid": "67d73e8bbf15b8cdf13c1a8d"
+  },
+  "location": {
+    "city": "Port Said",
+    "spots": [
+      "Corniche",
+      "Fouad Street",
+      "Port Said Stadium"
+    ]
+  },
+  "seats": 4
+},
+{
+  "_id": {
+    "$oid": "683c726c35d43a14e209c815"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1748791916/rently_cars/ganm09jiu3cqf7idjbmv.jpg",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1748791916/rently_cars/y5oaqjnosiwqimmjl9ct.jpg",
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1748791916/rently_cars/amyaef3au8zyypgz0y4r.jpg"
+  ],
+  "licensePlate": "4047 س ا س",
+  "color": "Red",
+  "make": "Tesla",
+  "model": "Model 3 2024",
+  "mileage": 150000,
+  "pricePerDay": 5000,
+  "carbonFootprint": 0,
+  "type": "Sedan",
+  "fuelType": "Electric",
+  "transmissionType": "Automatic",
+  "description": "An eco friendly, electric car that is perfect for a healthy environment",
+  "availabilityStatus": true,
+  "owner": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "location": {
+    "city": "Alexandria",
+    "spots": [
+      "Stanley",
+      "Smouha",
+      "Gleem"
+    ]
+  },
+  "disabled": true,
+  "seats": 5,
+  "createdAt": {
+    "$date": "2025-06-01T15:31:56.676Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-01T15:31:56.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685445f7296c66018c36ec3d"
+  },
+  "mainPhoto": "https://res.cloudinary.com/dwgya7amm/image/upload/v1750353398/rently_cars/v1a7ztipzj2zfvghmknw.webp",
+  "additionalPhotos": [
+    "https://res.cloudinary.com/dwgya7amm/image/upload/v1750353398/rently_cars/zfb7jobaarcnutfeajq0.png"
+  ],
+  "licensePlate": "123 س ر أ",
+  "color": "Blue",
+  "make": "Hyundai",
+  "model": "Elantra  2022",
+  "mileage": 28000,
+  "pricePerDay": 2500,
+  "carbonFootprint": 110,
+  "type": "Sedan",
+  "fuelType": "Gasoline",
+  "transmissionType": "Automatic",
+  "description": "Comfortable ride, perfect for coastal drives.",
+  "availabilityStatus": true,
+  "owner": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "location": {
+    "city": "Cairo",
+    "spots": [
+      "Masr el gdeda",
+      "New cairo"
+    ]
+  },
+  "disabled": false,
+  "seats": 5,
+  "createdAt": {
+    "$date": "2025-06-19T17:16:39.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-19T17:16:39.030Z"
+  },
+  "__v": 0
+}]

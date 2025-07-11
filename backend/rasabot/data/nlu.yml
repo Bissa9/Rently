@@ -1,0 +1,241 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - how are you?
+    - greetings
+    - what's up?
+    - yo
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - take care
+    - have a great day
+    - farewell
+    - I'm leaving now
+    - see you soon
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - sure
+    - absolutely
+    - that sounds great
+    - correct
+    - exactly
+    - you got it
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - nope
+    - not really
+    - I don't think so
+    - not at all
+    - that's incorrect
+
+- intent: mood_great
+  examples: |
+    - I'm happy
+    - feeling amazing
+    - wonderful
+    - excited
+    - life is great
+    - having a fantastic day
+    - couldn't be better
+
+- intent: mood_unhappy
+  examples: |
+    - I'm sad
+    - not feeling well
+    - really disappointed
+    - feeling down
+    - today is not my day
+    - I'm not in a good mood
+    - I'm upset
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you human?
+    - who created you?
+    - can you think?
+    - are you real?
+    - are you AI?
+
+- intent: emergency_help
+  examples: |
+    - I need urgent help
+    - My rental car broke down
+    - I'm stuck with my car
+    - The car is not working
+    - I was in an accident
+    - Do you have emergency assistance?
+    - I need immediate support
+
+- intent: booking_help
+  examples: |
+    - How do I book a car?
+    - Can you help me book a car?
+    - How do I check availability?
+    - Where can I find my bookings?
+    - What is your cancellation policy?
+    - Can I modify my booking?
+
+- intent: loyalty_program_info
+  examples: |
+    - How does the loyalty program work?
+    - What are the benefits of the loyalty program?
+    - How do I earn points?
+    - Can I use my points for discounts?
+    - Where can I check my loyalty points?
+    - What rewards do I get with my points?
+
+- intent: car_rental_info
+  examples: |
+    - How does renting a car work?
+    - What do I need to rent a car?
+    - Can I rent a car without a credit card?
+    - Do I need insurance to rent a car?
+    - How do I choose a rental car?
+    - Are there any hidden fees in car rentals?
+
+- intent: cancel_booking
+  examples: |
+    - How do I cancel my booking?
+    - Can I cancel my reservation?
+    - I want to cancel my car rental
+    - What happens if I cancel my booking?
+    - Is there a cancellation fee?
+    - Can I get a refund after canceling?
+
+- intent: modify_booking
+  examples: |
+    - Can I change my booking?
+    - I want to modify my reservation
+    - How do I reschedule my booking?
+    - Can I update my rental date?
+
+- intent: car_owner_help
+  examples: |
+    - I'm a car owner, how do I list a car?
+    - How do I check my earnings?
+    - Help me edit my listed car
+
+
+- intent: promo_code_info
+  examples: |
+    - How do I use a promo code?
+    - Where can I apply my discount code?
+    - My coupon code is not working
+    - How do I get a promo?
+
+- intent: points_balance_check
+  examples: |
+    - How many points do I have?
+    - Show my loyalty points
+    - What is my current balance?
+    - Check my rewards points
+
+
+- intent: location_help
+  examples: |
+    - How do I set my pickup location?
+    - Help me choose a rental location
+
+
+
+- intent: ask_eco_cars
+  examples: |
+    - Do you have electric cars?
+    - What about eco friendly cars?
+    - I want an electric vehicle
+    - Show me hybrid cars
+    - Are there any green cars?
+    - How can I rent an eco-friendly car?
+    - Do you offer electric vehicles?
+    - I'm looking for a zero emission car
+    - What are my options for environmentally friendly cars?
+    - How do I search for electric cars?
+
+- intent: ask_owner_profit
+  examples: |
+    - How much does the car owner earn?
+    - What profit does the car owner get?
+    - How much do I make if someone rents my car?
+    - What's the commission for car owners?
+    - What percent does the car owner receive?
+
+- intent: ask_loyalty_expiry
+  examples: |
+    - When do loyalty points expire?
+    - Do my loyalty points expire?
+    - How long do I keep my loyalty points?
+    - What's the validity period for loyalty points?
+    - Do I lose my loyalty points?
+
+- intent: ask_payment_methods
+  examples: |
+    - Can I pay with my card?
+    - What payment methods are accepted?
+    - How do I pay?
+    - Do you accept Stripe?
+    - Is online payment supported?
+
+- intent: ask_discounts
+  examples: |
+    - Are there any discounts?
+    - Do you offer promo codes?
+    - Can I get a discount?
+    - Are coupon codes available?
+    - Do I get a discount for booking early?
+
+- intent: ask_using_loyalty_points
+  examples: |
+    - How can I use loyalty points?
+    - Can I pay with my points?
+    - How do I redeem points?
+    - How can I apply my loyalty points?
+    - Can loyalty points reduce the price?
+
+- intent: ask_support
+  examples: |
+    - I need help
+    - How can I contact support?
+    - Where can I get assistance?
+    - Is there customer support?
+    - I have a problem with my booking
+
+- intent: ask_other_payment_methods
+  examples: |
+    - Do you accept cash?
+    - Can I pay on delivery?
+    - Are there other ways to pay?
+    - Can I pay without a credit card?
+    - Do you accept cash payments?
+
+- intent: ask_loyalty_earning
+  examples: |
+    - How do I earn loyalty points?
+    - How many points do I get per booking?
+    - Do I earn points when I pay?
+    - How are loyalty points calculated?
+    - What is the point system?
+    - Tell me about the loyalty point system
+
+
+
+

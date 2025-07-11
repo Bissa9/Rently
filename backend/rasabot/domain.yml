@@ -1,0 +1,124 @@
+version: "3.1"
+
+intents:
+  - location_help
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - emergency_help
+  - booking_help
+  - loyalty_program_info
+  - car_rental_info
+  - cancel_booking
+  - modify_booking
+  - car_owner_help
+  - promo_code_info
+  - points_balance_check
+  - ask_eco_cars
+  - ask_owner_profit
+  - ask_loyalty_expiry
+  - ask_payment_methods
+  - ask_discounts
+  - ask_car_delivery
+  - ask_using_loyalty_points
+  - ask_support
+  - ask_other_payment_methods
+
+responses:
+  utter_greet:
+    - text: "Hello! Welcome to Rently . I can help you with using our site, and support. How can I assist you today?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.chzbgr.com/full/9817556992/hAA1BE0BC/bag-12"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_emergency_help:
+    - text: "I'm sorry to hear that! If you're in an emergency, please call our support team at +123456789 or email us at businessrently@gmail.com."
+
+  utter_booking_help:
+    - text: "To book a car, go to the 'Book Now' section, select your location, date, and car type, then follow the payment steps."
+  
+  utter_loyalty_program_info:
+    - text: "Our Rently Loyalty Program rewards frequent renters!
+        - Earn points for every completed rental.  
+        - Redeem points for discounts on future bookings.  
+        Want to check your loyalty points? Go to your account!"
+
+  utter_car_rental_info:
+    - text: "To rent a car with Rently:  
+        1) Search for available cars.  
+        2) Select your preferred vehicle.  
+        3) Choose your rental dates and location.  
+        4) Complete the payment and confirm your booking.  
+        Let me know if you need help with any step!"
+
+  utter_cancel_booking:
+    - text: "If you need to cancel your booking, here's how:  
+         Go to 'My Bookings' in the Rently app.  
+         Select the booking you want to cancel.  
+         Click 'Cancel Booking' and confirm.  
+        If you have trouble canceling, you can contact **Rently Support**."
+
+  utter_modify_booking:
+    - text: "To modify a booking, go to 'My Bookings', select the trip, and choose 'Modify Booking'."
+
+  utter_car_owner_help:
+    - text: "To list a car,become a car owner from your profile and go to 'List Your Car'. You can track earnings and edit listings from your profile."
+
+  utter_promo_code_info:
+    - text: "Apply promo codes at checkout. Contact us if yours isn't working through our email businessrently@gmail.com . New codes are shared via email!"
+
+  utter_points_balance_check:
+    - text: "To check your loyalty points, log in and go to the 'Loyalty' section in your account."
+
+  utter_eco_cars_help:
+    - text: "We have a great selection of electric and eco-friendly cars! To find them:
+        1. Go to our website's search page
+        2. Click the 'Filters' menu
+        3. Select 'Electric' under 'Car Type'
+        4. Apply the filters
+        5. Browse the available eco-friendly vehicles"
+  utter_owner_profit:
+    - text: "Car owners earn 60% of the total booking price once the rental is completed."
+
+  utter_loyalty_expiry:
+    - text: "Your loyalty points are valid for 12 months from the day they are earned. Be sure to use them before they expire!"
+
+  utter_payment_methods:
+    - text: "Yes, you can pay securely using your credit or debit card. We use Stripe to process all payments safely."
+
+  utter_discounts:
+    - text: "We regularly offer promotions and discount codes. Check our website or subscribe to our newsletter for updates!"
+
+  utter_using_loyalty_points:
+    - text: "You can apply your loyalty points during checkout to get a discount on your booking."
+
+  utter_support:
+    - text: "I’m here to help! You can also reach our 24/7 support team at businessrently@gmail.com "
+
+  utter_other_payment_methods:
+    - text: "Currently, we accept card payments via Stripe. We're working to add more options like mobile wallets and PayPal soon."
+
+  utter_loyalty_earning:
+    - text: "You earn 1 loyalty point for every 10 EGP you pay on completed bookings."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

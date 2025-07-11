@@ -1,0 +1,205 @@
+/* Layout */
+.profile-layout {
+    min-height: 100vh;
+
+}
+
+/* Sidebar */
+.profile-sider {
+    background: #1D3557 !important; /* Matches header */
+}
+
+/* Ant Design Menu styling */
+.profile-sider .ant-menu {
+    background: #1D3557 !important;
+    border-right: none;
+}
+
+.profile-sider .ant-menu-item,
+.profile-sider .ant-menu-submenu-title {
+    color: white !important;
+}
+
+.profile-sider .ant-menu-item:hover,
+.profile-sider .ant-menu-submenu-title:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Logout Button */
+.logout {
+    color: #D9534F !important;
+}
+
+.logout:hover {
+    background-color: rgba(217, 83, 79, 0.2) !important;
+}
+
+/* Profile Content */
+.profile-content {
+    padding: 20px;
+}
+
+.profile-header-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Avatar */
+.user-profile {
+    position: relative;
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+
+
+.host-tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--secondary);
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 10px;
+    transform: translate(50%, 150%); /* Moves the tag slightly off the avatar */
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+/* Username */
+.profile-username {
+    color: black;
+    font-size: 18px;
+}
+
+/* Verified Information */
+.verified-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+/* Verified Check Icons */
+.check-icon {
+    color: var(--secondary); /* Green checkmark */
+    font-size: 18px;
+}
+
+/* Profile Information */
+.profile-information-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+/* Profile Info Box */
+.profile-info{
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.host-listings {
+    width: 50%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left by default */
+    padding-right: 10px;
+    gap: 10px; 
+    font-size: 20px;
+    
+}
+
+.no-listing-cars{
+margin-left: 20px;
+}
+.listings-title {
+    flex-shrink: 0; /* Keeps "Listed Cars" on the left */
+}
+
+.listings-content {
+    flex-grow: 1; /* Allows car previews to take available space */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.view-more {
+    align-self: flex-end; /* Moves the button to the right */
+}
+.ant-btn-default:hover {
+    color: var(--secondary)!important;
+    border-color: var(--secondary)!important;
+}
+.logout {
+    color: #D9534F !important;
+  }
+  
+  .logout .ant-menu-title-content {
+    color: #D9534F !important;
+  }
+  .ant-menu-item.logout {
+    color: #D9534F !important; /* Keep the text color */
+  }
+/* Prevent color change when an item is selected */
+.profile-sider .ant-menu-item-selected,
+.profile-sider .ant-menu-submenu-title-selected {
+  background: transparent !important; /* No background change */
+}
+
+/* Prevent hover effect */
+.profile-sider .ant-menu-item:hover,
+.profile-sider .ant-menu-submenu-title:hover {
+  background: rgba(255, 255, 255, 0.1) !important; /* No hover background */
+}
+
+.listing-container{
+    width: 100%;
+}
+.results-display{
+    margin: 20px;
+}
+.results-title{
+    font-size: large;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.add-car{
+    margin: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.car-listing-box{
+    border: 1px solid var(--primary);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.car-listing-box Title{
+
+    margin-top: 0;
+
+}
+.car-list-submit{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1000px){
+  .profile-information-content {
+    display: flex;
+  flex-direction: column;  
+  gap: 20px;    
+  }
+  .host-listings{
+    width: 100%;
+  }
+}

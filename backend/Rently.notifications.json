@@ -1,0 +1,510 @@
+[{
+  "_id": {
+    "$oid": "683e7d2a07d904748c1132e1"
+  },
+  "message": "Car Rental Cancellation\n\nYour booking for Audi A4 2024 has been cancelled.\nPickup Location: cairo, tagamoa\nStart Date: 6/5/2025, 3:00:00 AM\nEnd Date: 6/10/2025, 3:00:00 AM\n\nIf this was a mistake, you can make a new booking anytime.",
+  "status": "sent",
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T04:42:18.482Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T04:42:18.482Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683e823107d904748c117d79"
+  },
+  "message": "Car Rental Confirmation\n\nCar: Audi A4 2024\nPickup Location: cairo, tagamoa\nStart Date: Jun 5, 2025, 3:00 AM\nEnd Date: Jun 10, 2025, 3:00 AM\n\nThank you for choosing our service. Have a safe trip!",
+  "status": "sent",
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T05:03:45.847Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T05:03:45.847Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683e830b07d904748c117d98"
+  },
+  "message": "Car Rental Update\n\nYour booking for Audi A4 2024 has been updated.\nNew Start Date: Jun 6, 2025, 3:00 AM\nNew End Date: Jun 10, 2025, 3:00 AM\nPickup Location: cairo, tagamoa\n\nThank you for choosing our service!",
+  "status": "sent",
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T05:07:23.889Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T05:07:23.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683e838531003faeabe9db46"
+  },
+  "message": "Car Rental Cancellation\n\nYour booking for Audi A4 2024 has been cancelled.\nPickup Location: cairo, tagamoa\nStart Date: 6/6/2025, 3:00:00 AM\nEnd Date: 6/10/2025, 3:00:00 AM\n\nIf this was a mistake, you can make a new booking anytime.",
+  "status": "sent",
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T05:09:25.100Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T05:09:25.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683e83a231003faeabe9ebd1"
+  },
+  "message": "Car Rental Confirmation\n\nCar: Audi A4 2024\nPickup Location: cairo, tagamoa\nStart Date: Jun 5, 2025, 3:00 AM\nEnd Date: Jun 10, 2025, 3:00 AM\n\nThank you for choosing our service. Have a safe trip!",
+  "status": "sent",
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T05:09:54.334Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T05:09:54.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683e840531003faeabe9ebf2"
+  },
+  "message": "Car Rental Cancellation\n\nYour booking for Audi A4 2024 has been cancelled.\nPickup Location: cairo, tagamoa\nStart Date: 6/5/2025, 3:00:00 AM\nEnd Date: 6/10/2025, 3:00:00 AM\n\nIf this was a mistake, you can make a new booking anytime.",
+  "status": "sent",
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T05:11:33.148Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T05:11:33.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683e842f31003faeabea0b1e"
+  },
+  "message": "Car Rental Confirmation\n\nCar: Audi A4 2024\nPickup Location: cairo, tagamoa\nStart Date: Jun 5, 2025, 3:00 AM\nEnd Date: Jun 10, 2025, 3:00 AM\n\nThank you for choosing our service. Have a safe trip!",
+  "status": "sent",
+  "user": {
+    "$oid": "6818f1d5e96ea4da677925b3"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T05:12:15.211Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T05:12:15.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f1f277a70ff8a48c60884"
+  },
+  "message": "Booking confirmed for Jeep Wrangler Unlimited Sahara 2021",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T16:13:27.830Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T16:13:27.830Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f20896b610ed7212ff71d"
+  },
+  "message": "Car Rental Cancellation\n\nYour booking for Jeep Wrangler Unlimited Sahara 2021 has been cancelled.\nPickup Location: giza, el haram street\nStart Date: 6/5/2025, 3:00:00 AM\nEnd Date: 6/10/2025, 3:00:00 AM\n\nIf this was a mistake, you can make a new booking anytime.",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T16:19:21.576Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T16:19:21.576Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f20b36b610ed7212ff73d"
+  },
+  "message": "Booking confirmed for Jeep Wrangler Unlimited Sahara 2021",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T16:20:03.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T16:20:03.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f21febb62ee54d2542ac0"
+  },
+  "message": "Booking confirmed for Jeep Wrangler Unlimited Sahara 2021",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T16:25:34.872Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T16:25:34.872Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f238ef320ba577ed878b0"
+  },
+  "message": "Car Rental Update\n\nYour booking for Jeep Wrangler Unlimited Sahara 2021 has been updated.",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T16:32:14.921Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T16:32:14.921Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f25afa2d56910d129f713"
+  },
+  "message": "Car Rental Cancellation\n\nYour booking for Jeep Wrangler Unlimited Sahara 2021 has been cancelled.",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-03T16:41:19.560Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-03T16:41:19.560Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f9ee80a16f9888b37f3c2"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T01:18:32.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T01:18:32.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683f9f980a16f9888b37f3e9"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T01:21:28.011Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T01:21:28.011Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fa1e6ba1f4e9bfdeb5529"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T01:31:18.715Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T01:31:18.715Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fb7ffba1f4e9bfdeb5559"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T03:05:35.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T03:05:35.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fb94c1e3b855293ecf770"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T03:11:08.160Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T03:11:08.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fba355de56bef60fee799"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T03:15:01.219Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T03:15:01.219Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fbb7156716deee3c8fc82"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T03:20:17.215Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T03:20:17.215Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fbe4fc721df1fb4d70fcc"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T03:32:31.636Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T03:32:31.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fc45988cde0187a8c05a6"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T03:58:17.796Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T03:58:17.796Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fcd39b2bbb17a6237989a"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T04:36:09.142Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T04:36:09.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fcd76b2bbb17a623798a4"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T04:37:10.704Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T04:37:10.704Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fd3417c6a4a39bf4b740d"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T05:01:53.019Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T05:01:53.019Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fd50045d8804999d6a301"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T05:09:20.996Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T05:09:20.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683fd61c06ebe555cd197f05"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T05:14:04.022Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T05:14:04.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68406596bdbfeb2eed1738be"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T15:26:14.415Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T15:26:14.415Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6840660cbdbfeb2eed1738e2"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T15:28:12.101Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T15:28:12.101Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684075a0a83c2d929faf682a"
+  },
+  "message": "Booking confirmed for MG 7 2025",
+  "status": "sent",
+  "user": {
+    "$oid": "68362de28e4a3045857e4a6e"
+  },
+  "createdAt": {
+    "$date": "2025-06-04T16:34:40.689Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-04T16:34:40.689Z"
+  },
+  "__v": 0
+}]

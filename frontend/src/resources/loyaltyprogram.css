@@ -1,0 +1,93 @@
+.background-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.waves-background {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  bottom: -150px;
+}
+
+.overlay {
+  background-color: #1d355780;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.back-button-z-index {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.how-it-works {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  z-index: 3;
+  color: white;
+  text-align: center;
+}
+.content h2 {
+  font-size: 80px;
+  margin: 0;
+}
+.content Button {
+  margin: 20px;
+}
+.vouchers-display {
+  margin: 20px;
+  font-size: large;
+}
+.vouchers {
+  margin: 20px;
+}
+.vouchers img {
+  padding: 20px;
+}
+
+.redeem-voucher-container {
+  margin: 10px;
+  font-size: large;
+}
+.redeem-button {
+  position: absolute;
+  margin: 20px;
+  bottom: 0;
+  right: 0;
+}
+.voucher-card {
+  border: 2px solid transparent; /* default no border */
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  padding: 8px;
+}
+
+.voucher-card.selected {
+  border-color:var(--secondary);
+  box-shadow: 0 0 8px var(--secondary);
+}
+.no-vouchers-message{
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+  height: 200px;            /* or whatever height fits your layout */
+  font-size: 1.2rem;
+  color: #555;
+}

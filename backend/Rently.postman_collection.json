@@ -1,0 +1,650 @@
+{
+	"info": {
+		"_postman_id": "f0cdd1af-e6b2-4bf6-8473-f2803a91675c",
+		"name": "Rently",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40306145",
+		"_collection_link": "https://testing-3217.postman.co/workspace/testing-Workspace~eb391de0-97bf-4ef5-a683-7e7272d5ac95/collection/40306145-f0cdd1af-e6b2-4bf6-8473-f2803a91675c?action=share&source=collection_link&creator=40306145"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"John\",\r\n  \"lastName\": \"Doe\",\r\n  \"email\": \"john@example.com\",\r\n  \"password\": \"SecurePass123\",\r\n  \"phone\": \"+1234567890\",\r\n  \"drivingLicense\": {\r\n    \"number\": \"D1234567\",\r\n    \"issuedDate\": \"2020-01-01\",\r\n    \"expiryDate\": \"2030-01-01\"\r\n  },\r\n  \"dateOfBirth\": \"1990-05-15\",\r\n  \"address\": \"123 Street, City\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"john@example.com\",\r\n  \"password\": \"SecurePass123\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Profile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/users/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Profile",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"phone\": \"+9876543210\",\r\n  \"address\": \"456 New Street, New City\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/users/update-profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"update-profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Car Owner",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/users/become-car-owner",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users",
+						"become-car-owner"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Car",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"mainPhoto\": \"https://example.com/car-photo.jpg\",\r\n  \"additionalPhotos\": [\r\n    \"https://example.com/photo1.jpg\",\r\n    \"https://example.com/photo2.jpg\"\r\n  ],\r\n  \"licensePlate\": \"ABC123\",\r\n  \"color\": \"Black\",\r\n  \"make\": \"Toyota\",\r\n  \"model\": \"Corolla\",\r\n  \"mileage\": 12000,\r\n  \"pricePerDay\": 40,\r\n  \"carbonFootprint\": 120,\r\n  \"type\": \"Sedan\",\r\n  \"fuelType\": \"Petrol\",\r\n  \"transmissionType\": \"Automatic\",\r\n  \"description\": \"Comfortable car with great mileage.\",\r\n  \"availabilityStatus\": true,\r\n  \"owner\": \"67e13e0f5538110df10234a3\" \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Car",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"pricePerDay\": 50, \"availabilityStatus\": false }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/cars/67e1408d5538110df10234b3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"cars",
+						"67e1408d5538110df10234b3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Booking",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"67e13e0f5538110df10234a3\",  \r\n  \"carId\": \"67d72eb112d83f438a7fba94\",    \r\n  \"startDate\": \"2025-03-24T10:00:00Z\",\r\n  \"endDate\": \"2025-03-25T10:00:00Z\",\r\n  \"pickupLocation\": {\r\n    \"city\": \"New York\",\r\n    \"exactSpot\": \"Downtown Main Street\"\r\n  },\r\n  \"paymentMethod\": \"credit-card\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/booking",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Booking",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"startDate\": \"2025-03-24\",\r\n  \"endDate\": \"2025-03-25\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/booking/67e14424db49a14c01ca2d97",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"booking",
+						"67e14424db49a14c01ca2d97"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rental History",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/booking/history",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"booking",
+						"history"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cancel Booking (FAIL)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/booking/67e14424db49a14c01ca2d97",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"booking",
+						"67e14424db49a14c01ca2d97"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Loyalty Program",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/loyaltyprog",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"loyaltyprog"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Review",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"carId\": \"67d72eb112d83f438a7fba92\",\r\n  \"comment\": \"Great car, loved the experience!\",\r\n  \"rating\": 5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/review/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"review",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Reviews",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/review/car/67d72eb112d83f438a7fba92",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"review",
+						"car",
+						"67d72eb112d83f438a7fba92"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Review",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"comment\": \"Updated comment\",\r\n  \"rating\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/review/67e15597261f18961ea6bdb0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"review",
+						"67e15597261f18961ea6bdb0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Review",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/review/67e15597261f18961ea6bdb0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"review",
+						"67e15597261f18961ea6bdb0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Redeem Points+ Discount Code",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pointsToRedeem\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/loyaltyprog/redeem",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"loyaltyprog",
+						"redeem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Make Payment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"67e13e0f5538110df10234a3\",\r\n  \"bookingId\": \"67e168a7a44ecdf080419fe5\",  \r\n  \"amount\": 200\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/booking/67e168a7a44ecdf080419fe5/payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"booking",
+						"67e168a7a44ecdf080419fe5",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Booking",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTEzZTBmNTUzODExMGRmMTAyMzRhMyIsImlhdCI6MTc0MjgxNDg4NSwiZXhwIjoxNzQyOTAxMjg1fQ.blrKWpzC3yqWW0oBbnfrjvaehLqfLz-8ZKrIJy2XYGQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/booking/67e174e4115fd4bad47de000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"booking",
+						"67e174e4115fd4bad47de000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Complete Booking",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

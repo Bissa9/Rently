@@ -1,0 +1,12 @@
+.filtered-results-page {
+  margin: 20px 1%;
+
+}
+.no-cars-found{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* or 100vh for full viewport height */
+  font-size: 1.2rem;
+  color: #555;
+}
